@@ -1,6 +1,6 @@
 
 @ echo off
-::boot app
+::开机启动项
 
 
 echo "Microsoft Security Client"

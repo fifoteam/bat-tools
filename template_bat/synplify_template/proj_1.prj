@@ -1,0 +1,72 @@
+#--  Synopsys, Inc.
+#--  Version F-2012.03-SP2 
+#--  Project file F:\DAHENG\svn\hw_mer\branches\u3v_temp\mer-500-14u3x\fpga\tttt\proj_1.prj
+#--  Written on Thu Feb 12 14:54:36 2015
+
+
+#project files
+
+
+#implementation: "rev_1"
+impl -add rev_1 -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std sysv
+set_option -project_relative_includes 1
+
+#device options
+set_option -technology Spartan6
+set_option -part XC6SLX9
+set_option -package CSG225
+set_option -speed_grade -2
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+
+# mapper_options
+set_option -frequency auto
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# xilinx_options
+set_option -preserve_slash_names 1
+
+# Xilinx Spartan3
+set_option -run_prop_extract 1
+set_option -maxfan 10000
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -retiming 0
+set_option -update_models_cp 0
+set_option -fixgatedclocks 3
+set_option -fixgeneratedclocks 3
+set_option -no_sequential_opt 0
+
+# Xilinx Spartan6
+set_option -enable_prepacking 1
+
+# NFilter
+set_option -popfeed 0
+set_option -constprop 0
+set_option -createhierarchy 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+set_option -multi_file_compilation_unit 1
+
+#VIF options
+set_option -write_vif 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./rev_1/proj_1.edf"
+impl -active "rev_1"
