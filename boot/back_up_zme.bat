@@ -43,9 +43,9 @@ echo "modelsim ini back done!"
 @ xcopy "D:\Tools\Crack" "F:\Michael\backup\Crack\" /e/h/y >nul
 echo "crack back done!"
 
-::::保存 shadowsocks 文件
-::@ xcopy "D:\Tools\xht_tools\Shadowsocks-2.5.8" "F:\Michael\backup\shadowsocks\" /e/h/y >nul
-::echo "shadowsocks back done!"
+::保存 shadowsocks 文件
+@ xcopy "D:\Tools\xht_tools\Shadowsocks-2.5.8" "F:\aws\shadowsocks" /e/h/y >nul
+echo "shadowsocks back done!"
 
 ::保存 dexpot 配置
 @ xcopy "D:\Tools\xht_tools\dexpot_1610_portable_r2373\profile\*.*" "F:\Michael\backup\dexpot" /e/h/y >nul
