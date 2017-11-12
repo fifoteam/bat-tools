@@ -11,9 +11,9 @@ echo off
 ::±£´æ ue ÅäÖÃ
 @ xcopy "c:\Users\xht\AppData\Roaming\IDMComp\UltraEdit\*.*" "F:\Michael\backup\UE\ue_config" /e/h/y >nul
 @ xcopy "D:\Tools\UltraEdit\wordfiles" "F:\Michael\backup\UE\wordfiles" /e/h/y >nul
-@ xcopy "D:\Tools\UltraEdit\HDL_script" "F:\Michael\backup\UE\HDL_script" /e/h/y >nul
+::@ xcopy "D:\Tools\UltraEdit\HDL_script" "F:\Michael\backup\UE\HDL_script" /e/h/y >nul
 @ xcopy "D:\Tools\UltraEdit\template" "F:\Michael\backup\UE\template\" /e/h/y >nul
-@ xcopy "D:\Tools\UltraEdit\batch" "F:\Michael\backup\UE\batch\" /e/h/y >nul
+::@ xcopy "D:\Tools\UltraEdit\batch" "F:\Michael\backup\UE\batch\" /e/h/y >nul
 
 @ xcopy "C:\ue" "F:\Michael\backup\UE\temp\" /e/h/y >nul
 
