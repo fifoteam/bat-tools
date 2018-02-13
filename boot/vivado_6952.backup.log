@@ -1,0 +1,176 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Jan 15 18:58:15 2018
+# Process ID: 6952
+# Current directory: f:/FifoTeam/bat_tools/boot
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8112
+# Log file: f:/FifoTeam/bat_tools/boot/vivado.log
+# Journal file: f:/FifoTeam/bat_tools/boot\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/managed_ip_project/managed_ip_project.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/managed_ip_project'
+INFO: [Project 1-313] Project file moved from 'F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/test/managed_ip_project' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'packet_byte_addr_mul_synth_1' not found
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/ip_user_files', nor could it be found using path 'F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/test/ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/tools/Xilinx/Vivado/2017.3/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'packet_byte_addr_mul' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/packet_byte_addr_mul.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_byte_addr_mul' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/packet_byte_addr_mul.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_byte_addr_mul' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/hdl/xbip_utils_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_byte_addr_mul' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/hdl/xbip_pipe_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_byte_addr_mul' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/hdl/xbip_bram18k_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_byte_addr_mul' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/hdl/mult_gen_v12_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_byte_addr_mul' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/doc/mult_gen_v12_0_changelog.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_byte_addr_mul' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/packet_byte_addr_mul_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_byte_addr_mul' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/packet_byte_addr_mul_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_byte_addr_mul' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/packet_byte_addr_mul_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_byte_addr_mul' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/packet_byte_addr_mul_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_byte_addr_mul' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_byte_addr_mul' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/hdl/xbip_utils_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_byte_addr_mul' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/hdl/xbip_pipe_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_byte_addr_mul' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/hdl/xbip_bram18k_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_byte_addr_mul' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/hdl/mult_gen_v12_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_byte_addr_mul' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/packet_byte_addr_mul_ooc.xdc'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_byte_addr_mul' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/synth/packet_byte_addr_mul.vhd'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 866.203 ; gain = 86.426
+set_property -dict [list CONFIG.PortAWidth {14} CONFIG.OutputWidthHigh {29}] [get_ips packet_byte_addr_mul]
+generate_target all [get_files  F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/packet_byte_addr_mul.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'packet_byte_addr_mul'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'packet_byte_addr_mul'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'packet_byte_addr_mul'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'packet_byte_addr_mul'...
+catch { config_ip_cache -export [get_ips -all packet_byte_addr_mul] }
+export_ip_user_files -of_objects [get_files F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/packet_byte_addr_mul.xci] -no_script -sync -force -quiet
+launch_runs -jobs 8 packet_byte_addr_mul_synth_1
+[Mon Jan 15 18:59:57 2018] Launched packet_byte_addr_mul_synth_1...
+Run output will be captured here: F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/managed_ip_project/managed_ip_project.runs/packet_byte_addr_mul_synth_1/runme.log
+export_simulation -of_objects [get_files F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/packet_byte_addr_mul/packet_byte_addr_mul.xci] -directory F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/ip_user_files/sim_scripts -ip_user_files_dir F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/ip_user_files -ipstatic_source_dir F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/managed_ip_project/managed_ip_project.cache/compile_simlib/modelsim} {questa=F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/managed_ip_project/managed_ip_project.cache/compile_simlib/questa} {riviera=F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/managed_ip_project/managed_ip_project.cache/compile_simlib/riviera} {activehdl=F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/ddr3_read_ctrl/packet_byte_addr_mul/managed_ip_project/managed_ip_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_project
+open_project F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/managed_ip_project/managed_ip_project.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/managed_ip_project'
+INFO: [Project 1-313] Project file moved from 'F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/test/managed_ip_project' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'mig_7series_0_synth_1' not found
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/ip_user_files', nor could it be found using path 'F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/test/ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/tools/Xilinx/Vivado/2017.3/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/mig_7series_0/mig_7series_0.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/mig_7series_0/doc/mig_7series_v4_0_changelog.txt'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1048.121 ; gain = 1.777
+set_property -dict [list CONFIG.XML_INPUT_FILE {mig_b.prj} CONFIG.RESET_BOARD_INTERFACE {Custom} CONFIG.MIG_DONT_TOUCH_PARAM {Custom} CONFIG.BOARD_MIG_PARAM {Custom}] [get_ips mig_7series_0]
+ERROR: [filemgmt 20-1731] Too many checkpoints files associated with the sub-design 'F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/mig_7series_0/mig_7series_0.xci'
+ERROR: [filemgmt 20-1730] Too many black box stub files associated with the sub-design 'F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/mig_7series_0/mig_7series_0.xci'
+INFO: [Common 17-17] undo 'set_property -dict [list CONFIG.XML_INPUT_FILE {mig_b.prj} CONFIG.RESET_BOARD_INTERFACE {Custom} CONFIG.MIG_DONT_TOUCH_PARAM {Custom} CONFIG.BOARD_MIG_PARAM {Custom}] [get_ips mig_7series_0]'
+ERROR: [Common 17-39] 'set_property' failed due to earlier errors.
+launch_runs mig_7series_0_synth_1 -jobs 8
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'mig_7series_0'. Target already exists and is up to date.
+[Tue Jan 16 10:12:26 2018] Launched mig_7series_0_synth_1...
+Run output will be captured here: F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/managed_ip_project/managed_ip_project.runs/mig_7series_0_synth_1/runme.log
+close_project
+open_project F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/managed_ip_project/managed_ip_project.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/managed_ip_project'
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/tools/Xilinx/Vivado/2017.3/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_0_clk_ibuf.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_0_infrastructure.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_0_iodelay_ctrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_0_tempmon.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_arb_mux.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_arb_row_col.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_arb_select.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_bank_common.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_bank_compare.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_bank_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_bank_state.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_col_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_mc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_rank_cntrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_rank_common.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_rank_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_round_robin_arb.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_0_ecc_buf.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_0_ecc_dec_fix.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_0_ecc_gen.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_0_ecc_merge_enc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_0_fi_xor.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ip_top/mig_7series_v4_0_memc_ui_top_std.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ip_top/mig_7series_v4_0_mem_intfc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_group_io.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_calib_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_if_post_fifo.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_mc_phy.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_mc_phy_wrapper.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_of_pre_fifo.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_4lanes.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ck_addr_cmd_delay.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_dqs_found_cal.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_dqs_found_cal_hr.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_init.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_cntlr.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_data.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_edge.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_lim.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_mux.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_po_cntlr.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_samp.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_oclkdelay_cal.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_prbs_rdlvl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_rdlvl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_tempmon.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_wrcal.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_wrlvl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_wrlvl_off_delay.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_prbs_gen.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_skip_calib_tap.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_poc_cc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_poc_edge_store.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_poc_meta.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_poc_pd.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_poc_tap_base.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_poc_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_0_ui_cmd.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_0_ui_rd_data.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_0_ui_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_0_ui_wr_data.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/FifoTeam/bat_tools/boot/.Xil/Vivado-6952-xht-PC/coregen/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/mig_7series_0/doc/mig_7series_v4_0_changelog.txt'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1155.289 ; gain = 0.000
+set_property -dict [list CONFIG.XML_INPUT_FILE {mig_a.prj} CONFIG.RESET_BOARD_INTERFACE {Custom} CONFIG.MIG_DONT_TOUCH_PARAM {Custom} CONFIG.BOARD_MIG_PARAM {Custom}] [get_ips mig_7series_0]
+generate_target {instantiation_template} [get_files f:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/mig_7series_0/mig_7series_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'mig_7series_0'...
+generate_target all [get_files  F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/mig_7series_0/mig_7series_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'mig_7series_0'...
+catch { config_ip_cache -export [get_ips -all mig_7series_0] }
+export_ip_user_files -of_objects [get_files F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/mig_7series_0/mig_7series_0.xci] -no_script -sync -force -quiet
+reset_run mig_7series_0_synth_1
+launch_runs -jobs 8 mig_7series_0_synth_1
+[Tue Jan 16 10:28:18 2018] Launched mig_7series_0_synth_1...
+Run output will be captured here: F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/managed_ip_project/managed_ip_project.runs/mig_7series_0_synth_1/runme.log
+export_simulation -of_objects [get_files F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/mig_7series_0/mig_7series_0.xci] -directory F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/ip_user_files/sim_scripts -ip_user_files_dir F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/ip_user_files -ipstatic_source_dir F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/managed_ip_project/managed_ip_project.cache/compile_simlib/modelsim} {questa=F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/managed_ip_project/managed_ip_project.cache/compile_simlib/questa} {riviera=F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/managed_ip_project/managed_ip_project.cache/compile_simlib/riviera} {activehdl=F:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s/src/mig_7series/managed_ip_project/managed_ip_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 16 10:31:37 2018...

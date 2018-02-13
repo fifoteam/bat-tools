@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Tue Jan 16 15:20:10 2018
+# Process ID: 8392
+# Current directory: f:/FifoTeam/bat_tools/boot
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6448
+# Log file: f:/FifoTeam/bat_tools/boot/vivado.log
+# Journal file: f:/FifoTeam/bat_tools/boot\vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project managed_ip_project F:/DAHENG/hw_mars/branches/zhangqiang/gige/mars-1230-9gx-p/fpga_module/gige_ctrl/src/test/managed_ip_project -part xc7s50fgga484-2 -ip
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'F:/DAHENG/hw_mars/branches/zhangqiang/gige/mars-1230-9gx-p/fpga_module/gige_ctrl/src/test/managed_ip_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/tools/Xilinx/Vivado/2017.3/data/ip'.
+create_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 952.043 ; gain = 92.035
+set_property target_simulator ModelSim [current_project]
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+create_ip -name tri_mode_ethernet_mac -vendor xilinx.com -library ip -version 9.0 -module_name tri_mode_ethernet_mac_0 -dir f:/DAHENG/hw_mars/branches/zhangqiang/gige/mars-1230-9gx-p/fpga_module/gige_ctrl/src/test
+set_property -dict [list CONFIG.Physical_Interface {RGMII} CONFIG.Management_Frequency {100} CONFIG.Frame_Filter {false} CONFIG.Number_of_Table_Entries {0}] [get_ips tri_mode_ethernet_mac_0]
+generate_target {instantiation_template} [get_files f:/DAHENG/hw_mars/branches/zhangqiang/gige/mars-1230-9gx-p/fpga_module/gige_ctrl/src/test/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'tri_mode_ethernet_mac_0'...
+generate_target all [get_files  f:/DAHENG/hw_mars/branches/zhangqiang/gige/mars-1230-9gx-p/fpga_module/gige_ctrl/src/test/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'tri_mode_ethernet_mac_0'...
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Design_Linking license.
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'tri_mode_ethernet_mac_0'...
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Design_Linking license.
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'tri_mode_ethernet_mac_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'tri_mode_ethernet_mac_0'...
+generate_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1168.785 ; gain = 0.000
+catch { config_ip_cache -export [get_ips -all tri_mode_ethernet_mac_0] }
+export_ip_user_files -of_objects [get_files f:/DAHENG/hw_mars/branches/zhangqiang/gige/mars-1230-9gx-p/fpga_module/gige_ctrl/src/test/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] f:/DAHENG/hw_mars/branches/zhangqiang/gige/mars-1230-9gx-p/fpga_module/gige_ctrl/src/test/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0.xci]
+launch_runs -jobs 8 tri_mode_ethernet_mac_0_synth_1
+[Tue Jan 16 15:23:09 2018] Launched tri_mode_ethernet_mac_0_synth_1...
+Run output will be captured here: F:/DAHENG/hw_mars/branches/zhangqiang/gige/mars-1230-9gx-p/fpga_module/gige_ctrl/src/test/managed_ip_project/managed_ip_project.runs/tri_mode_ethernet_mac_0_synth_1/runme.log
+export_simulation -of_objects [get_files f:/DAHENG/hw_mars/branches/zhangqiang/gige/mars-1230-9gx-p/fpga_module/gige_ctrl/src/test/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0.xci] -directory F:/DAHENG/hw_mars/branches/zhangqiang/gige/mars-1230-9gx-p/fpga_module/gige_ctrl/src/test/ip_user_files/sim_scripts -ip_user_files_dir F:/DAHENG/hw_mars/branches/zhangqiang/gige/mars-1230-9gx-p/fpga_module/gige_ctrl/src/test/ip_user_files -ipstatic_source_dir F:/DAHENG/hw_mars/branches/zhangqiang/gige/mars-1230-9gx-p/fpga_module/gige_ctrl/src/test/ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/DAHENG/hw_mars/branches/zhangqiang/gige/mars-1230-9gx-p/fpga_module/gige_ctrl/src/test/managed_ip_project/managed_ip_project.cache/compile_simlib/modelsim} {questa=F:/DAHENG/hw_mars/branches/zhangqiang/gige/mars-1230-9gx-p/fpga_module/gige_ctrl/src/test/managed_ip_project/managed_ip_project.cache/compile_simlib/questa} {riviera=F:/DAHENG/hw_mars/branches/zhangqiang/gige/mars-1230-9gx-p/fpga_module/gige_ctrl/src/test/managed_ip_project/managed_ip_project.cache/compile_simlib/riviera} {activehdl=F:/DAHENG/hw_mars/branches/zhangqiang/gige/mars-1230-9gx-p/fpga_module/gige_ctrl/src/test/managed_ip_project/managed_ip_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+open_example_project -force -dir F:/DAHENG/hw_mars/branches/zhangqiang/gige/mars-1230-9gx-p/fpga_module/gige_ctrl/src/test [get_ips  tri_mode_ethernet_mac_0]
+INFO: [IP_Flow 19-1686] Generating 'Examples' target for IP 'tri_mode_ethernet_mac_0'...
+open_example_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:55 . Memory (MB): peak = 1168.785 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 16 15:58:27 2018...

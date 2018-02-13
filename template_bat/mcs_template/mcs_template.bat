@@ -21,7 +21,7 @@ cd /d %1
 ::)
 ::cd prj
 
-copy "F:\Michael\backup\template_bat\mcs_template\generate_mcs.bat"
+copy "F:\FifoTeam\bat_tools\template_bat\mcs_template\generate_mcs.bat"
 
 ::cd sim
 ::D:\Tools\modeltech64_10.1c\win64\modelsim.exe

@@ -37,8 +37,8 @@ echo "shadowsocks"
 ::echo "flux"
 ::@ start	"" "C:\Users\xht\AppData\Local\FluxSoftware\Flux\flux.exe"
 
-echo "Wunderlist"
-@ start	"" C:\Users\xht\AppData\Local\Wunderlist\Wunderlist.exe"
+::echo "Wunderlist"
+::@ start	"" C:\Users\xht\AppData\Local\Wunderlist\Wunderlist.exe"
 
 
 ::echo "taskkill GWX"

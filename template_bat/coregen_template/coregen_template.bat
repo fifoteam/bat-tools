@@ -21,7 +21,7 @@ cd /d %1
 ::)
 ::cd prj
 
-copy "F:\FifoTeam\bat_tools\template_bat\coregen_template\coregen.cgc"
+::copy "F:\FifoTeam\bat_tools\template_bat\coregen_template\coregen.cgc"
 copy "F:\FifoTeam\bat_tools\template_bat\coregen_template\coregen.cgp"
 
 ::cd sim
