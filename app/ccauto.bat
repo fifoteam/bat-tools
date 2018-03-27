@@ -1,0 +1,1 @@
+start "" "d:\Tools\xht_tools\CCleaner Professional Portable\CCleaner64.exe" /AUTO
