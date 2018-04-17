@@ -3,9 +3,11 @@ setMode -bs
 setMode -bs
 setMode -bs
 setCable -port auto
+setCable -port auto
 Identify -inferir 
 identifyMPM 
-assignFile -p 1 -file "F:/DAHENG/rd_mars_series/PD/product_stage/mars-1230-9gx-p/develop_stage/burn_file/3rd/full/bin/both_fac/MARS-1230-9GX-P/download.bit"
+assignFile -p 1 -file "F:/DAHENG/rd_mars_series/PD/product_stage/mars-1230-9gx-p/develop_stage/burn_file/3rd/full/bin/download.bit"
+Program -p 1 
 Program -p 1 
 setMode -bs
 setMode -bs
