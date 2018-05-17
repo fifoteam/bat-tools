@@ -2,6 +2,9 @@
 @ echo off
 ::开机启动项
 
+echo "shadowsocks"
+@ start	"" "D:\Tools\xht_tools\Shadowsocks-2.5.8\Shadowsocks.exe"
+
 
 echo "Microsoft Security Client"
 @ start	"" "c:\Program Files\Microsoft Security Client\msseces.exe" -hide -runkey
@@ -31,8 +34,7 @@ echo "TOTALCMD64"
 echo "strokeit"
 @ start	"" "D:\Tools\xht_tools\TCB Networks\StrokeIt\strokeit.exe"
 
-echo "shadowsocks"
-@ start	"" "D:\Tools\xht_tools\Shadowsocks-2.5.8\Shadowsocks.exe"
+
 
 ::echo "flux"
 ::@ start	"" "C:\Users\xht\AppData\Local\FluxSoftware\Flux\flux.exe"
