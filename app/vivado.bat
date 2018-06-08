@@ -1,0 +1,1 @@
+D:\tools\Xilinx\Vivado\2018.1\bin\unwrapped\win64.o\vvgl.exe d:\tools\Xilinx\Vivado\2018.1\bin\vivado.bat
