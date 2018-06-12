@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun 12 13:43:44 2018
+# Process ID: 5436
+# Current directory: F:/FifoTeam/bat_tools/app
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7736
+# Log file: F:/FifoTeam/bat_tools/app/vivado.log
+# Journal file: F:/FifoTeam/bat_tools/app\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/coding/fpga_module/mac/managed_ip_project/managed_ip_project.xpr
+set_property -dict [list CONFIG.Physical_Interface {RGMII}] [get_ips tri_mode_ethernet_mac_1]
+generate_target all [get_files  F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/coding/fpga_module/mac/tri_mode_ethernet_mac_1/tri_mode_ethernet_mac_1.xci]
+catch { config_ip_cache -export [get_ips -all tri_mode_ethernet_mac_1] }
+export_ip_user_files -of_objects [get_files F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/coding/fpga_module/mac/tri_mode_ethernet_mac_1/tri_mode_ethernet_mac_1.xci] -no_script -sync -force -quiet
+reset_run tri_mode_ethernet_mac_1_synth_1
+launch_runs -jobs 8 tri_mode_ethernet_mac_1_synth_1
+export_simulation -of_objects [get_files F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/coding/fpga_module/mac/tri_mode_ethernet_mac_1/tri_mode_ethernet_mac_1.xci] -directory F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/coding/fpga_module/mac/ip_user_files/sim_scripts -ip_user_files_dir F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/coding/fpga_module/mac/ip_user_files -ipstatic_source_dir F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/coding/fpga_module/mac/ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/coding/fpga_module/mac/managed_ip_project/managed_ip_project.cache/compile_simlib/modelsim} {questa=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/coding/fpga_module/mac/managed_ip_project/managed_ip_project.cache/compile_simlib/questa} {riviera=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/coding/fpga_module/mac/managed_ip_project/managed_ip_project.cache/compile_simlib/riviera} {activehdl=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/coding/fpga_module/mac/managed_ip_project/managed_ip_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+open_example_project -force -dir F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/coding/fpga_module/mac [get_ips  tri_mode_ethernet_mac_1]
