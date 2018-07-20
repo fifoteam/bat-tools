@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat Jul 14 15:55:40 2018
+# Process ID: 7280
+# Current directory: F:/FifoTeam/bat_tools/app
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9356
+# Log file: F:/FifoTeam/bat_tools/app/vivado.log
+# Journal file: F:/FifoTeam/bat_tools/app\vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project managed_ip_project F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/mig_axi/managed_ip_project -part xc7a75tfgg484-3 -ip
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/mig_axi/managed_ip_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/tools/Xilinx/Vivado/2018.1/data/ip'.
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 860.707 ; gain = 67.266
+set_property target_simulator ModelSim [current_project]
+create_ip -name mig_7series -vendor xilinx.com -library ip -version 4.1 -module_name mig_7series_0 -dir F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/mig_axi
+set_property -dict [list CONFIG.XML_INPUT_FILE {mig_a.prj} CONFIG.RESET_BOARD_INTERFACE {Custom} CONFIG.MIG_DONT_TOUCH_PARAM {Custom} CONFIG.BOARD_MIG_PARAM {Custom}] [get_ips mig_7series_0]
+generate_target {instantiation_template} [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/mig_axi/mig_7series_0/mig_7series_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'mig_7series_0'...
+generate_target all [get_files  f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/mig_axi/mig_7series_0/mig_7series_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'mig_7series_0'...
+catch { config_ip_cache -export [get_ips -all mig_7series_0] }
+export_ip_user_files -of_objects [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/mig_axi/mig_7series_0/mig_7series_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/mig_axi/mig_7series_0/mig_7series_0.xci]
+launch_runs -jobs 8 mig_7series_0_synth_1
+[Sat Jul 14 16:01:58 2018] Launched mig_7series_0_synth_1...
+Run output will be captured here: F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/mig_axi/managed_ip_project/managed_ip_project.runs/mig_7series_0_synth_1/runme.log
+export_simulation -of_objects [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/mig_axi/mig_7series_0/mig_7series_0.xci] -directory F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/mig_axi/ip_user_files/sim_scripts -ip_user_files_dir F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/mig_axi/ip_user_files -ipstatic_source_dir F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/mig_axi/ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/mig_axi/managed_ip_project/managed_ip_project.cache/compile_simlib/modelsim} {questa=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/mig_axi/managed_ip_project/managed_ip_project.cache/compile_simlib/questa} {riviera=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/mig_axi/managed_ip_project/managed_ip_project.cache/compile_simlib/riviera} {activehdl=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/mig_axi/managed_ip_project/managed_ip_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+open_example_project -force -dir F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/mig_axi [get_ips  mig_7series_0]
+INFO: [IP_Flow 19-1686] Generating 'Examples' target for IP 'mig_7series_0'...
+open_example_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:45 . Memory (MB): peak = 944.195 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 16 09:22:12 2018...
