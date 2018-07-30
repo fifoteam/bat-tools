@@ -2,23 +2,23 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Thu Jul 26 10:07:30 2018
-# Process ID: 3680
+# Start of session at: Mon Jul 23 15:33:30 2018
+# Process ID: 792
 # Current directory: F:/FifoTeam/bat_tools/app
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3592
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1344
 # Log file: F:/FifoTeam/bat_tools/app/vivado.log
 # Journal file: F:/FifoTeam/bat_tools/app\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/fifo/managed_ip_project/managed_ip_project.xpr
+open_project F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/10gmac/managed_ip_project/managed_ip_project.xpr
 INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
-Current project path is 'F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/fifo/managed_ip_project'
-INFO: [Project 1-313] Project file moved from 'F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/coding/fpga_module/fifo/managed_ip_project' since last save.
+Current project path is 'F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/10gmac/managed_ip_project'
+INFO: [Project 1-313] Project file moved from 'F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/coding/fpga_module/10gmac/managed_ip_project' since last save.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/tools/Xilinx/Vivado/2018.1/data/ip'.
-open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:38 . Memory (MB): peak = 874.555 ; gain = 176.824
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 890.301 ; gain = 167.801
 exit
-INFO: [Common 17-206] Exiting Vivado at Thu Jul 26 15:37:45 2018...
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 23 17:47:36 2018...
