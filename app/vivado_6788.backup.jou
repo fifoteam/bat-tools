@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat Aug  4 13:51:58 2018
+# Process ID: 6788
+# Current directory: F:/FifoTeam/bat_tools/app
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1360
+# Log file: F:/FifoTeam/bat_tools/app/vivado.log
+# Journal file: F:/FifoTeam/bat_tools/app\vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project managed_ip_project F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/managed_ip_project -part xc7a75tfgg484-3 -ip
+set_property target_simulator ModelSim [current_project]
+create_ip -name fifo_generator -vendor xilinx.com -library ip -version 13.2 -module_name packet_buffer_64k_64to64 -dir f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer
+set_property -dict [list CONFIG.Component_Name {packet_buffer_64k_64to64} CONFIG.Fifo_Implementation {Independent_Clocks_Block_RAM} CONFIG.Performance_Options {First_Word_Fall_Through} CONFIG.Input_Data_Width {72} CONFIG.Input_Depth {8192} CONFIG.Output_Data_Width {72} CONFIG.Output_Depth {8192} CONFIG.Reset_Type {Asynchronous_Reset} CONFIG.Full_Flags_Reset_Value {1} CONFIG.Data_Count_Width {13} CONFIG.Write_Data_Count_Width {13} CONFIG.Read_Data_Count_Width {13} CONFIG.Full_Threshold_Assert_Value {8191} CONFIG.Full_Threshold_Negate_Value {8190} CONFIG.Empty_Threshold_Assert_Value {4} CONFIG.Empty_Threshold_Negate_Value {5} CONFIG.Enable_Safety_Circuit {true}] [get_ips packet_buffer_64k_64to64]
+generate_target {instantiation_template} [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/packet_buffer_64k_64to64/packet_buffer_64k_64to64.xci]
+generate_target all [get_files  f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/packet_buffer_64k_64to64/packet_buffer_64k_64to64.xci]
+catch { config_ip_cache -export [get_ips -all packet_buffer_64k_64to64] }
+export_ip_user_files -of_objects [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/packet_buffer_64k_64to64/packet_buffer_64k_64to64.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/packet_buffer_64k_64to64/packet_buffer_64k_64to64.xci]
+launch_runs -jobs 8 packet_buffer_64k_64to64_synth_1
+export_simulation -of_objects [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/packet_buffer_64k_64to64/packet_buffer_64k_64to64.xci] -directory F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/ip_user_files/sim_scripts -ip_user_files_dir F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/ip_user_files -ipstatic_source_dir F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/managed_ip_project/managed_ip_project.cache/compile_simlib/modelsim} {questa=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/managed_ip_project/managed_ip_project.cache/compile_simlib/questa} {riviera=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/managed_ip_project/managed_ip_project.cache/compile_simlib/riviera} {activehdl=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/managed_ip_project/managed_ip_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run packet_buffer_64k_64to64_synth_1
+launch_runs packet_buffer_64k_64to64_synth_1 -jobs 8
+wait_on_run packet_buffer_64k_64to64_synth_1
+set_property -dict [list CONFIG.Write_Data_Count {false} CONFIG.Read_Data_Count {true} CONFIG.Enable_Safety_Circuit {false}] [get_ips packet_buffer_64k_64to64]
+generate_target all [get_files  f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/packet_buffer_64k_64to64/packet_buffer_64k_64to64.xci]
+catch { config_ip_cache -export [get_ips -all packet_buffer_64k_64to64] }
+export_ip_user_files -of_objects [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/packet_buffer_64k_64to64/packet_buffer_64k_64to64.xci] -no_script -sync -force -quiet
+reset_run packet_buffer_64k_64to64_synth_1
+launch_runs -jobs 8 packet_buffer_64k_64to64_synth_1
+export_simulation -of_objects [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/packet_buffer_64k_64to64/packet_buffer_64k_64to64.xci] -directory F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/ip_user_files/sim_scripts -ip_user_files_dir F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/ip_user_files -ipstatic_source_dir F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/managed_ip_project/managed_ip_project.cache/compile_simlib/modelsim} {questa=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/managed_ip_project/managed_ip_project.cache/compile_simlib/questa} {riviera=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/managed_ip_project/managed_ip_project.cache/compile_simlib/riviera} {activehdl=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_buffer/managed_ip_project/managed_ip_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet

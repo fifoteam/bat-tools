@@ -2,10 +2,10 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Mon Jul 23 15:33:30 2018
-# Process ID: 792
+# Start of session at: Sat Aug  4 16:54:42 2018
+# Process ID: 7776
 # Current directory: F:/FifoTeam/bat_tools/app
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1344
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2480
 # Log file: F:/FifoTeam/bat_tools/app/vivado.log
 # Journal file: F:/FifoTeam/bat_tools/app\vivado.jou
 #-----------------------------------------------------------
@@ -19,6 +19,11 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/tools/Xilinx/Vivado/2018.1/data/ip'.
-open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 890.301 ; gain = 167.801
-exit
-INFO: [Common 17-206] Exiting Vivado at Mon Jul 23 17:47:36 2018...
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:20 . Memory (MB): peak = 919.715 ; gain = 162.164
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property is not allowed in procedure init_gui
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting range property is not allowed in procedure init_gui
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property is not allowed in procedure init_gui
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting range property is not allowed in procedure init_gui
+INFO: [Device 21-403] Loading part xc7a75tfgg484-3
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
