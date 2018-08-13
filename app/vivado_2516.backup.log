@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Aug  6 09:31:57 2018
+# Process ID: 2516
+# Current directory: F:/FifoTeam/bat_tools/app
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5416
+# Log file: F:/FifoTeam/bat_tools/app/vivado.log
+# Journal file: F:/FifoTeam/bat_tools/app\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/fifo/managed_ip_project/managed_ip_project.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/fifo/managed_ip_project'
+INFO: [Project 1-313] Project file moved from 'F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/coding/fpga_module/fifo/managed_ip_project' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/tools/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 918.805 ; gain = 159.590
+close_project
+create_project managed_ip_project F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_cmd_buffer/managed_ip_project -part xc7a75tfgg484-3 -ip
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_cmd_buffer/managed_ip_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/tools/Xilinx/Vivado/2018.1/data/ip'.
+set_property target_simulator ModelSim [current_project]
+create_ip -name fifo_generator -vendor xilinx.com -library ip -version 13.2 -module_name packet_cmd_buffer_1x128 -dir f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_cmd_buffer
+set_property -dict [list CONFIG.Component_Name {packet_cmd_buffer_1x128} CONFIG.Fifo_Implementation {Independent_Clocks_Distributed_RAM} CONFIG.Input_Data_Width {1} CONFIG.Input_Depth {128} CONFIG.Output_Data_Width {1} CONFIG.Output_Depth {128} CONFIG.Reset_Type {Asynchronous_Reset} CONFIG.Full_Flags_Reset_Value {1} CONFIG.Data_Count_Width {7} CONFIG.Write_Data_Count_Width {7} CONFIG.Read_Data_Count_Width {7} CONFIG.Full_Threshold_Assert_Value {125} CONFIG.Full_Threshold_Negate_Value {124}] [get_ips packet_cmd_buffer_1x128]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'packet_cmd_buffer_1x128' to 'packet_cmd_buffer_1x128' is not allowed and is ignored.
+generate_target {instantiation_template} [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_cmd_buffer/packet_cmd_buffer_1x128/packet_cmd_buffer_1x128.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'packet_cmd_buffer_1x128'...
+generate_target all [get_files  f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_cmd_buffer/packet_cmd_buffer_1x128/packet_cmd_buffer_1x128.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'packet_cmd_buffer_1x128'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'packet_cmd_buffer_1x128'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'packet_cmd_buffer_1x128'...
+catch { config_ip_cache -export [get_ips -all packet_cmd_buffer_1x128] }
+export_ip_user_files -of_objects [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_cmd_buffer/packet_cmd_buffer_1x128/packet_cmd_buffer_1x128.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_cmd_buffer/packet_cmd_buffer_1x128/packet_cmd_buffer_1x128.xci]
+launch_runs -jobs 8 packet_cmd_buffer_1x128_synth_1
+[Mon Aug  6 10:39:06 2018] Launched packet_cmd_buffer_1x128_synth_1...
+Run output will be captured here: F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_cmd_buffer/managed_ip_project/managed_ip_project.runs/packet_cmd_buffer_1x128_synth_1/runme.log
+export_simulation -of_objects [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_cmd_buffer/packet_cmd_buffer_1x128/packet_cmd_buffer_1x128.xci] -directory F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_cmd_buffer/ip_user_files/sim_scripts -ip_user_files_dir F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_cmd_buffer/ip_user_files -ipstatic_source_dir F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_cmd_buffer/ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_cmd_buffer/managed_ip_project/managed_ip_project.cache/compile_simlib/modelsim} {questa=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_cmd_buffer/managed_ip_project/managed_ip_project.cache/compile_simlib/questa} {riviera=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_cmd_buffer/managed_ip_project/managed_ip_project.cache/compile_simlib/riviera} {activehdl=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/packet_cmd_buffer/managed_ip_project/managed_ip_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Aug  6 13:20:39 2018...
