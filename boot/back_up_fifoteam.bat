@@ -36,6 +36,11 @@ git add *
 git commit -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
+@ cd	F:\FifoTeam\c-tools  >nul
+git add *
+git commit -m "AUTO SAVED BY BAT FILE"
+git push -u origin master
+
 echo "fifoteam git add & commit done!"
 
 @ping 127.0.0.1 -n 2 >nul

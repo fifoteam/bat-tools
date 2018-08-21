@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version J-2015.03
-#--  Project file F:\DAHENG\hw_mars\branches\xinghaitao\gige\mars_1230_9gx\fpga_module\mig_ip_7s\syn\proj_1.prj
-#--  Written on Wed Nov 22 10:13:53 2017
+#--  Project file F:\fifoteam\bat_tools\template_bat\synplify_template\proj_a7.prj
+#--  Written on Mon Aug 20 13:08:59 2018
 
 
 #project files
@@ -19,7 +19,7 @@ set_option -enable_nfilter 1
 
 #device options
 set_option -technology Artix7
-set_option -part XC7A50T
+set_option -part XC7A100T
 set_option -package FGG484
 set_option -speed_grade -2
 set_option -part_companion ""
