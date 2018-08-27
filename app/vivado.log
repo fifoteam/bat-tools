@@ -2,38 +2,40 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Wed Aug 22 14:16:38 2018
-# Process ID: 5744
+# Start of session at: Mon Aug 27 14:32:34 2018
+# Process ID: 2804
 # Current directory: F:/fifoteam/bat_tools/app
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5536
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5180
 # Log file: F:/fifoteam/bat_tools/app/vivado.log
 # Journal file: F:/fifoteam/bat_tools/app\vivado.jou
 #-----------------------------------------------------------
 start_gui
-create_project managed_ip_project F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/xgmac/managed_ip_project -part xc7a100tfgg484-2 -ip
+create_project managed_ip_project F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/10ge_serdes_1/managed_ip_project -part xc7a100tfgg484-2 -ip
 INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
-Current project path is 'F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/xgmac/managed_ip_project'
+Current project path is 'F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/10ge_serdes_1/managed_ip_project'
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/tools/Xilinx/Vivado/2018.1/data/ip'.
-create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 840.746 ; gain = 113.793
+create_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 863.813 ; gain = 114.410
 set_property target_simulator ModelSim [current_project]
-WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property is not allowed in procedure init_gui
-WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting range property is not allowed in procedure init_gui
-create_ip -name ten_gig_eth_mac -vendor xilinx.com -library ip -version 15.1 -module_name ten_gig_eth_mac_0 -dir f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/xgmac
-set_property -dict [list CONFIG.Management_Interface {false} CONFIG.Statistics_Gathering {false} CONFIG.Physical_Interface {Internal}] [get_ips ten_gig_eth_mac_0]
-generate_target {instantiation_template} [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/xgmac/ten_gig_eth_mac_0/ten_gig_eth_mac_0.xci]
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ten_gig_eth_mac_0'...
-generate_target all [get_files  f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/xgmac/ten_gig_eth_mac_0/ten_gig_eth_mac_0.xci]
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ten_gig_eth_mac_0'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ten_gig_eth_mac_0'...
-INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ten_gig_eth_mac_0'...
-catch { config_ip_cache -export [get_ips -all ten_gig_eth_mac_0] }
-export_ip_user_files -of_objects [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/xgmac/ten_gig_eth_mac_0/ten_gig_eth_mac_0.xci] -no_script -sync -force -quiet
-create_ip_run [get_files -of_objects [get_fileset sources_1] f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/xgmac/ten_gig_eth_mac_0/ten_gig_eth_mac_0.xci]
-launch_runs -jobs 8 ten_gig_eth_mac_0_synth_1
-[Wed Aug 22 14:19:25 2018] Launched ten_gig_eth_mac_0_synth_1...
-Run output will be captured here: F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/xgmac/managed_ip_project/managed_ip_project.runs/ten_gig_eth_mac_0_synth_1/runme.log
-export_simulation -of_objects [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/xgmac/ten_gig_eth_mac_0/ten_gig_eth_mac_0.xci] -directory F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/xgmac/ip_user_files/sim_scripts -ip_user_files_dir F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/xgmac/ip_user_files -ipstatic_source_dir F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/xgmac/ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/xgmac/managed_ip_project/managed_ip_project.cache/compile_simlib/modelsim} {questa=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/xgmac/managed_ip_project/managed_ip_project.cache/compile_simlib/questa} {riviera=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/xgmac/managed_ip_project/managed_ip_project.cache/compile_simlib/riviera} {activehdl=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/xgmac/managed_ip_project/managed_ip_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+INFO: [xilinx.com:ip:xaui:12.3-8888] xaui_0: GT Channel 1,GT Channel 2,GT Channel 3
+INFO: [xilinx.com:ip:xaui:12.3-8888] xaui_0: GT Channel 0,GT Channel 2,GT Channel 3
+create_ip -name xaui -vendor xilinx.com -library ip -version 12.3 -module_name xaui_0 -dir f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/10ge_serdes_1
+INFO: [xilinx.com:ip:xaui:12.3-8888] xaui_0: GT Channel 1,GT Channel 2,GT Channel 3
+set_property -dict [list CONFIG.Mdio_Management {false} CONFIG.Select_lane_0 {GT Channel 1} CONFIG.Select_lane_1 {GT Channel 0} CONFIG.Select_lane_2 {GT Channel 3} CONFIG.Select_lane_3 {GT Channel 2}] [get_ips xaui_0]
+INFO: [xilinx.com:ip:xaui:12.3-8888] xaui_0: GT Channel 0,GT Channel 2,GT Channel 3
+generate_target {instantiation_template} [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/10ge_serdes_1/xaui_0/xaui_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'xaui_0'...
+generate_target all [get_files  f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/10ge_serdes_1/xaui_0/xaui_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'xaui_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'xaui_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'xaui_0'...
+catch { config_ip_cache -export [get_ips -all xaui_0] }
+export_ip_user_files -of_objects [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/10ge_serdes_1/xaui_0/xaui_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/10ge_serdes_1/xaui_0/xaui_0.xci]
+launch_runs -jobs 8 xaui_0_synth_1
+[Mon Aug 27 14:34:00 2018] Launched xaui_0_synth_1...
+Run output will be captured here: F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/10ge_serdes_1/managed_ip_project/managed_ip_project.runs/xaui_0_synth_1/runme.log
+export_simulation -of_objects [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/10ge_serdes_1/xaui_0/xaui_0.xci] -directory F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/10ge_serdes_1/ip_user_files/sim_scripts -ip_user_files_dir F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/10ge_serdes_1/ip_user_files -ipstatic_source_dir F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/10ge_serdes_1/ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/10ge_serdes_1/managed_ip_project/managed_ip_project.cache/compile_simlib/modelsim} {questa=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/10ge_serdes_1/managed_ip_project/managed_ip_project.cache/compile_simlib/questa} {riviera=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/10ge_serdes_1/managed_ip_project/managed_ip_project.cache/compile_simlib/riviera} {activehdl=F:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/10ge_serdes_1/managed_ip_project/managed_ip_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
 exit
-INFO: [Common 17-206] Exiting Vivado at Wed Aug 22 14:21:16 2018...
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 27 1INFO: [Common 17-206] Exiting Vivado at Mon Aug 27 14:35:56 2018...
