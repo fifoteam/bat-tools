@@ -4,13 +4,13 @@
 
 
 echo "daily plan"
-call f:\FifoTeam\bat_tools\daily_plan\xht_plan_sum.bat
+call g:\fifoteam\bat_tools\daily_plan\xht_plan_sum.bat
 
 echo "zme"
-call f:\FifoTeam\bat_tools\boot\back_up_zme.bat
+call g:\fifoteam\bat_tools\boot\back_up_zme.bat
 
 echo "fifoteam"
-call f:\FifoTeam\bat_tools\boot\back_up_fifoteam.bat
+call g:\fifoteam\bat_tools\boot\back_up_fifoteam.bat
 
 ::echo "taskkill wiz"
 ::taskkill /f /im wiz.exe
