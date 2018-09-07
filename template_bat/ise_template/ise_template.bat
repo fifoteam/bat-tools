@@ -21,7 +21,7 @@ cd /d %1
 ::)
 ::cd prj
 
-copy "F:\FifoTeam\bat_tools\template_bat\ise_template\template.xise"
+copy "g:\FifoTeam\bat_tools\template_bat\ise_template\template.xise"
 
 ::cd sim
 ::D:\Tools\modeltech64_10.1c\win64\modelsim.exe
