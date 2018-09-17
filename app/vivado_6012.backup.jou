@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Sep 14 13:16:09 2018
+# Process ID: 6012
+# Current directory: g:/fifoteam/bat_tools/app
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5252
+# Log file: g:/fifoteam/bat_tools/app/vivado.log
+# Journal file: g:/fifoteam/bat_tools/app\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project g:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s_ex/prj/mig_example.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+export_ip_user_files -of_objects  [get_files g:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s_ex/src/ila_0/ila_0.xci] -no_script -reset -force -quiet
+remove_files  -fileset ila_0 g:/DAHENG/hw_mars/branches/xinghaitao/gige/mars_1230_9gx/fpga_module/mig_ip_7s_ex/src/ila_0/ila_0.xci
+upgrade_ip -srcset mig_7series_0 -vlnv xilinx.com:ip:mig_7series:4.1 [get_ips  mig_7series_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips mig_7series_0] -no_script -sync -force -quiet
+update_compile_order -fileset sources_1
+reset_run impl_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+reset_run mig_7series_0_synth_1
+launch_runs mig_7series_0_synth_1 -jobs 8
+wait_on_run mig_7series_0_synth_1
+reset_run mig_7series_0_synth_1
