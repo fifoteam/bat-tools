@@ -19,7 +19,7 @@ cd /d %1
 ::	type nul>"testbench\tb_.v"
 ::)
 
-copy "g:\FifoTeam\bat_tools\template_bat\mind_template\template.mmap"
+copy "f:\FifoTeam\bat_tools\template_bat\mind_template\template.mmap"
 
 ::cd sim
 ::D:\Tools\modeltech64_10.1c\win64\modelsim.exe

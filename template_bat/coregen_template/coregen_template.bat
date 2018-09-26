@@ -21,8 +21,8 @@ cd /d %1
 ::)
 ::cd prj
 
-::copy "g:\FifoTeam\bat_tools\template_bat\coregen_template\coregen.cgc"
-copy "g:\FifoTeam\bat_tools\template_bat\coregen_template\coregen.cgp"
+::copy "f:\FifoTeam\bat_tools\template_bat\coregen_template\coregen.cgc"
+copy "f:\FifoTeam\bat_tools\template_bat\coregen_template\coregen.cgp"
 
 ::cd sim
 ::D:\Tools\modeltech64_10.1c\win64\modelsim.exe

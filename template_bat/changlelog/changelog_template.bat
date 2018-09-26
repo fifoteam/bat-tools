@@ -19,7 +19,7 @@ cd /d %1
 ::	type nul>"testbench\tb_.v"
 ::)
 
-copy "g:\FifoTeam\bat_tools\template_bat\changlelog\Changelog.txt"
+copy "f:\FifoTeam\bat_tools\template_bat\changlelog\Changelog.txt"
 
 ::cd sim
 ::D:\Tools\modeltech64_10.1c\win64\modelsim.exe

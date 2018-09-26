@@ -9,6 +9,12 @@ echo off
 ::RD /S /Q \?%1  删除任意文件夹
 
 
+::删除日志文件
+@ cd	f:\FifoTeam\bat_tools\app  >nul
+@ del *.log >nul
+@ del *.jou >nul
+@ del *.backup >nul
+
 ::配置文件上传到SVN
 @ cd	f:\FifoTeam\bat_tools  >nul
 git add *
