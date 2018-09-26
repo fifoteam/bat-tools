@@ -10,33 +10,33 @@ echo off
 
 
 ::配置文件上传到SVN
-@ cd	g:\FifoTeam\bat_tools  >nul
+@ cd	f:\FifoTeam\bat_tools  >nul
 git add *
 git commit -a -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
-@ cd	g:\FifoTeam\ahk-tools  >nul
+@ cd	f:\FifoTeam\ahk-tools  >nul
 git add *
 git commit -a -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
 
-@ cd	g:\FifoTeam\js-tools  >nul
+@ cd	f:\FifoTeam\js-tools  >nul
 git add *
 git commit -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
-@ cd	g:\FifoTeam\python-tools  >nul
+@ cd	f:\FifoTeam\python-tools  >nul
 git add *
 git commit -a -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
-@ cd	g:\FifoTeam\rtl-tools  >nul
+@ cd	f:\FifoTeam\rtl-tools  >nul
 git add *
 git commit -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
-@ cd	g:\FifoTeam\c-tools  >nul
+@ cd	f:\FifoTeam\c-tools  >nul
 git add *
 git commit -m "AUTO SAVED BY BAT FILE"
 git push -u origin master

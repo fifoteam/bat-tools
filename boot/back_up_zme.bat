@@ -9,38 +9,38 @@ echo off
 ::RD /S /Q \?%1  删除任意文件夹
 
 ::保存 ue 配置
-@ xcopy "c:\Users\xht\AppData\Roaming\IDMComp\UltraEdit\*.*" "g:\Michael\backup\UE\ue_config" /e/h/y >nul
-@ xcopy "D:\Tools\UltraEdit\wordfiles" "g:\Michael\backup\UE\wordfiles" /e/h/y >nul
-::@ xcopy "D:\Tools\UltraEdit\HDL_script" "g:\Michael\backup\UE\HDL_script" /e/h/y >nul
-@ xcopy "D:\Tools\UltraEdit\template" "g:\Michael\backup\UE\template\" /e/h/y >nul
-::@ xcopy "D:\Tools\UltraEdit\batch" "g:\Michael\backup\UE\batch\" /e/h/y >nul
+@ xcopy "c:\Users\xht\AppData\Roaming\IDMComp\UltraEdit\*.*" "f:\Michael\backup\UE\ue_config" /e/h/y >nul
+@ xcopy "D:\Tools\UltraEdit\wordfiles" "f:\Michael\backup\UE\wordfiles" /e/h/y >nul
+::@ xcopy "D:\Tools\UltraEdit\HDL_script" "f:\Michael\backup\UE\HDL_script" /e/h/y >nul
+@ xcopy "D:\Tools\UltraEdit\template" "f:\Michael\backup\UE\template\" /e/h/y >nul
+::@ xcopy "D:\Tools\UltraEdit\batch" "f:\Michael\backup\UE\batch\" /e/h/y >nul
 
-@ xcopy "C:\ue" "g:\Michael\backup\UE\temp\" /e/h/y >nul
+@ xcopy "C:\ue" "f:\Michael\backup\UE\temp\" /e/h/y >nul
 
 
 echo "UE backup done!"
 
 ::保存 alt_r 配置
-@ xcopy "D:\Tools\ALTRun V1.46\*.*" "g:\Michael\backup\alt_r" /e/h/y >nul
+@ xcopy "D:\Tools\ALTRun V1.46\*.*" "f:\Michael\backup\alt_r" /e/h/y >nul
 echo "alt_r back done!"
 
 
 ::保存 tc 配置
-@ xcopy "d:\Tools\totalcmd\*.*" "g:\Michael\backup\totalcmd" /e/h/y >nul
+@ xcopy "d:\Tools\totalcmd\*.*" "f:\Michael\backup\totalcmd" /e/h/y >nul
 
 echo "tc back done!"
 
 ::保存 everything 配置
-::@ xcopy "C:\Users\xht\AppData\Roaming\Everything\Everything.ini" "g:\Michael\backup\everything" /e/h/y >nul
+::@ xcopy "C:\Users\xht\AppData\Roaming\Everything\Everything.ini" "f:\Michael\backup\everything" /e/h/y >nul
 ::echo "everything back done!"
 
 
 ::保存 modelsim 配置
-@ xcopy "d:\Tools\modeltech64_10.5\modelsim.ini" "g:\Michael\backup\modelsim\ini" /y >nul
+@ xcopy "d:\Tools\modeltech64_10.5\modelsim.ini" "f:\Michael\backup\modelsim\ini" /y >nul
 echo "modelsim ini back done!"
 
 ::保存 crack 文件
-@ xcopy "D:\Tools\Crack" "g:\Michael\backup\Crack\" /e/h/y >nul
+@ xcopy "D:\Tools\Crack" "f:\Michael\backup\Crack\" /e/h/y >nul
 echo "crack back done!"
 
 ::保存 shadowsocks 文件
@@ -48,18 +48,18 @@ echo "crack back done!"
 echo "shadowsocks back done!"
 
 ::保存 dexpot 配置
-@ xcopy "D:\Tools\xht_tools\dexpot_1610_portable_r2373\profile\*.*" "g:\Michael\backup\dexpot" /e/h/y >nul
+@ xcopy "D:\Tools\xht_tools\dexpot_1610_portable_r2373\profile\*.*" "f:\Michael\backup\dexpot" /e/h/y >nul
 
 echo "crack dexpot done!"
 
 ::删除 ue 配置中的重复文件
-@ cd	g:\Michael\backup\UE\ue_config >nul
+@ cd	f:\Michael\backup\UE\ue_config >nul
 @ del *Saved*.* >nul
 echo "UE Saved* del done!"
 
-@ cd	g:\Michael\backup\UE\temp >nul
+@ cd	f:\Michael\backup\UE\temp >nul
 @ rd work /S/Q >nul
-@ cd	g:\Michael\backup\UE\temp\gcc_work >nul
+@ cd	f:\Michael\backup\UE\temp\gcc_work >nul
 @ del *.o >nul
 @ del *.exe >nul
 echo "UE work gcc_work del done!"
@@ -69,10 +69,10 @@ echo "UE work gcc_work del done!"
 
 
 ::配置文件上传到SVN
-@ cd g:\Michael\backup >nul
-::@ svn add g:\Michael\backup\ --force
+@ cd f:\Michael\backup >nul
+::@ svn add f:\Michael\backup\ --force
 git add *
-::@ svn commit -m "AUTO SAVED BY BAT FILE" g:\Michael\backup\
+::@ svn commit -m "AUTO SAVED BY BAT FILE" f:\Michael\backup\
 git commit -a -m "AUTO SAVED BY BAT FILE"
 
 git push -u origin master

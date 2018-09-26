@@ -10,7 +10,7 @@ echo "Microsoft Security Client"
 @ start	"" "c:\Program Files\Microsoft Security Client\msseces.exe" -hide -runkey
 
 echo "autorun.ahk"
-@ start	"" "g:\fifoteam\ahk-tools\autorun\autorun.ahk"
+@ start	"" "f:\fifoteam\ahk-tools\autorun\autorun.ahk"
 ::echo "Ditto"
 ::@ start	"" "D:\Tools\xht_tools\Ditto\Ditto.exe"
 ::echo "dexpot"
