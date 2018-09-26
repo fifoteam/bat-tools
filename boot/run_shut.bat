@@ -6,6 +6,9 @@
 echo "daily plan"
 call f:\fifoteam\bat_tools\daily_plan\xht_plan_sum.bat
 
+echo "taskkill ALTRun"
+taskkill /f /im ALTRun.exe
+
 echo "taskkill wiz"
 taskkill /f /im wiz.exe
 

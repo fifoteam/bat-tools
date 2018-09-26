@@ -16,7 +16,8 @@ echo "autorun.ahk"
 ::echo "dexpot"
 ::@ start	"" "D:\Tools\xht_tools\dexpot_1610_portable_r2373\dexpot.exe"
 echo "263em"
-@ start	"" "D:\Program Files (x86)\263 Enterprise Messenger\263em.exe"
+@ start	"" "D:\Program Files (x86)\263\263 Enterprise Messenger\263em.exe"
+
 ::echo "Foxmail"
 ::@ start	"" "D:\Program Files\Foxmail 7.0\Foxmail.exe" /MIN
 echo "Thunderbird"
