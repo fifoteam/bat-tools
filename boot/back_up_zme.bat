@@ -9,13 +9,8 @@ echo off
 ::RD /S /Q \?%1  删除任意文件夹
 
 ::保存 ue 配置
-@ xcopy "c:\Users\xht\AppData\Roaming\IDMComp\UltraEdit\*.*" "f:\Michael\backup\UE\ue_config" /e/h/y >nul
-@ xcopy "D:\Tools\UltraEdit\wordfiles" "f:\Michael\backup\UE\wordfiles" /e/h/y >nul
-::@ xcopy "D:\Tools\UltraEdit\HDL_script" "f:\Michael\backup\UE\HDL_script" /e/h/y >nul
-@ xcopy "D:\Tools\UltraEdit\template" "f:\Michael\backup\UE\template\" /e/h/y >nul
-::@ xcopy "D:\Tools\UltraEdit\batch" "f:\Michael\backup\UE\batch\" /e/h/y >nul
-
-@ xcopy "C:\ue" "f:\Michael\backup\UE\temp\" /e/h/y >nul
+@ xcopy "c:\Users\xht\AppData\Roaming\IDMComp\UltraEdit\*.*" "F:\fifoteam\ue-tools\backup" /e/h/y >nul
+@ xcopy "C:\ue" "F:\fifoteam\ue-tools\ue" /e/h/y >nul
 
 
 echo "UE backup done!"
@@ -53,22 +48,31 @@ echo "shadowsocks back done!"
 echo "crack dexpot done!"
 
 ::删除 ue 配置中的重复文件
-@ cd	f:\Michael\backup\UE\ue_config >nul
+@ cd	F:\fifoteam\ue-tools\backup >nul
 @ del *Saved*.* >nul
 echo "UE Saved* del done!"
 
-@ cd	f:\Michael\backup\UE\temp >nul
+@ cd	F:\fifoteam\ue-tools\ue >nul
 @ rd work /S/Q >nul
-@ cd	f:\Michael\backup\UE\temp\gcc_work >nul
+@ cd	F:\fifoteam\ue-tools\ue\gcc_work >nul
 @ del *.o >nul
 @ del *.exe >nul
 echo "UE work gcc_work del done!"
 
 ::pause
 
+::配置文件上传到SVN-fifoteam
+@ cd F:\fifoteam\ue-tools >nul
+::@ svn add f:\Michael\backup\ --force
+git add *
+::@ svn commit -m "AUTO SAVED BY BAT FILE" f:\Michael\backup\
+git commit -a -m "AUTO SAVED BY BAT FILE"
+
+git push -u origin master
 
 
-::配置文件上传到SVN
+
+::配置文件上传到SVN-Michael
 @ cd f:\Michael\backup >nul
 ::@ svn add f:\Michael\backup\ --force
 git add *
