@@ -30,9 +30,9 @@ echo "tc back done!"
 ::echo "everything back done!"
 
 
-::保存 modelsim 配置
-@ xcopy "d:\Tools\modeltech64_10.5\modelsim.ini" "f:\Michael\backup\modelsim\ini" /y >nul
-echo "modelsim ini back done!"
+rem ::保存 modelsim 配置
+rem @ xcopy "d:\Tools\modeltech64_10.5\modelsim.ini" "f:\Michael\backup\modelsim\ini" /y >nul
+rem echo "modelsim ini back done!"
 
 ::保存 crack 文件
 @ xcopy "D:\Tools\Crack" "f:\Michael\backup\Crack\" /e/h/y >nul
