@@ -22,7 +22,6 @@ echo "alt_r back done!"
 
 ::保存 tc 配置
 @ xcopy "d:\Tools\totalcmd\*.*" "f:\Michael\backup\totalcmd" /e/h/y >nul
-
 echo "tc back done!"
 
 ::保存 everything 配置
@@ -30,9 +29,9 @@ echo "tc back done!"
 ::echo "everything back done!"
 
 
-rem ::保存 modelsim 配置
-rem @ xcopy "d:\Tools\modeltech64_10.5\modelsim.ini" "f:\Michael\backup\modelsim\ini" /y >nul
-rem echo "modelsim ini back done!"
+::保存 modelsim 配置
+@ xcopy "d:\Tools\modeltech64_10.5\modelsim.ini" "f:\FifoTeam\sim-tools\modelsim\ini" /y >nul
+echo "modelsim ini back done!"
 
 ::保存 crack 文件
 @ xcopy "D:\Tools\Crack" "f:\Michael\backup\Crack\" /e/h/y >nul
@@ -59,28 +58,23 @@ echo "UE Saved* del done!"
 @ del *.exe >nul
 echo "UE work gcc_work del done!"
 
-::pause
-
 ::配置文件上传到SVN-fifoteam
 @ cd F:\fifoteam\ue-tools >nul
-::@ svn add f:\Michael\backup\ --force
 git add *
-::@ svn commit -m "AUTO SAVED BY BAT FILE" f:\Michael\backup\
 git commit -a -m "AUTO SAVED BY BAT FILE"
-
 git push -u origin master
 
-
+::配置文件上传到SVN-fifoteam
+@ cd F:\fifoteam\sim-tools\modelsim >nul
+git add *
+git commit -a -m "AUTO SAVED BY BAT FILE"
+git push -u origin master
 
 ::配置文件上传到SVN-Michael
 @ cd f:\Michael\backup >nul
-::@ svn add f:\Michael\backup\ --force
 git add *
-::@ svn commit -m "AUTO SAVED BY BAT FILE" f:\Michael\backup\
 git commit -a -m "AUTO SAVED BY BAT FILE"
-
 git push -u origin master
-
 
 
 echo "git add & commit done!"
