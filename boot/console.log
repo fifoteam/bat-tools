@@ -1,0 +1,4 @@
+Message: Deprecation warning: moment.lang is deprecated. Use moment.locale instead.
+Source: http://calendar.263.net/calweb/statics/libs/common-libs1.0.min.js?v=1.11
+Line: 102
+-----------------------
