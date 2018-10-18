@@ -10,38 +10,45 @@ echo off
 
 
 ::删除日志文件
+echo "del log file"
+echo "f:\FifoTeam\bat_tools\app"
 @ cd	f:\FifoTeam\bat_tools\app  >nul
 @ del *.log >nul
 @ del *.jou >nul
 @ del *.backup >nul
 
 ::配置文件上传到SVN
+echo "f:\FifoTeam\bat_tools"
 @ cd	f:\FifoTeam\bat_tools  >nul
 git add *
 git commit -a -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
+echo "f:\FifoTeam\ahk-tools"
 @ cd	f:\FifoTeam\ahk-tools  >nul
 git add *
 git commit -a -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
-
+echo "f:\FifoTeam\js-tools"
 @ cd	f:\FifoTeam\js-tools  >nul
 git add *
 git commit -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
+echo "f:\FifoTeam\python-tools"
 @ cd	f:\FifoTeam\python-tools  >nul
 git add *
 git commit -a -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
+echo "f:\FifoTeam\rtl-tools"
 @ cd	f:\FifoTeam\rtl-tools  >nul
 git add *
 git commit -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
+echo "f:\FifoTeam\c-tools"
 @ cd	f:\FifoTeam\c-tools  >nul
 git add *
 git commit -m "AUTO SAVED BY BAT FILE"
