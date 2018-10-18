@@ -16,16 +16,16 @@ echo off
 echo "UE backup done!"
 
 ::保存 alt_r 配置
-@ xcopy "D:\Tools\ALTRun V1.46\*.*" "f:\Michael\backup\alt_r" /e/h/y >nul
+@ xcopy "D:\Tools\ALTRun V1.46\*.*" "F:\kuaipan\kuaipan\Michael\backup\alt_r" /e/h/y >nul
 echo "alt_r back done!"
 
 
 ::保存 tc 配置
-@ xcopy "d:\Tools\totalcmd\*.*" "f:\Michael\backup\totalcmd" /e/h/y >nul
+@ xcopy "d:\Tools\totalcmd\*.*" "F:\kuaipan\kuaipan\Michael\backup\totalcmd" /e/h/y >nul
 echo "tc back done!"
 
 ::保存 everything 配置
-::@ xcopy "C:\Users\xht\AppData\Roaming\Everything\Everything.ini" "f:\Michael\backup\everything" /e/h/y >nul
+::@ xcopy "C:\Users\xht\AppData\Roaming\Everything\Everything.ini" "F:\kuaipan\kuaipan\Michael\backup\everything" /e/h/y >nul
 ::echo "everything back done!"
 
 
@@ -34,15 +34,25 @@ echo "tc back done!"
 echo "modelsim ini back done!"
 
 ::保存 crack 文件
-@ xcopy "D:\Tools\Crack" "f:\Michael\backup\Crack\" /e/h/y >nul
+@ xcopy "D:\Tools\Crack" "F:\kuaipan\kuaipan\Michael\backup\Crack\" /e/h/y >nul
 echo "crack back done!"
 
 ::保存 shadowsocks 文件
-@ xcopy "D:\Tools\xht_tools\Shadowsocks-2.5.8" "F:\aws\shadowsocks" /e/h/y >nul
+@ xcopy "D:\Tools\xht_tools\Shadowsocks-2.5.8" "F:\kuaipan\kuaipan\TOOLS\aws\shadowsocks" /e/h/y >nul
 echo "shadowsocks back done!"
 
 ::保存 dexpot 配置
-@ xcopy "D:\Tools\xht_tools\dexpot_1610_portable_r2373\profile\*.*" "f:\Michael\backup\dexpot" /e/h/y >nul
+@ xcopy "D:\Tools\xht_tools\dexpot_1610_portable_r2373\profile\*.*" "F:\kuaipan\kuaipan\Michael\backup\dexpot" /e/h/y >nul
+
+
+::保存 calendar 配置
+@ xcopy "D:\prog_data\thunderbird_data\calendar\*.*" "F:\kuaipan\kuaipan\Michael\backup\thunderbird\calendar" /e/h/y >nul
+echo "calendar back done!"
+
+::保存 signature 配置
+@ xcopy "D:\prog_data\thunderbird_data\xinght@daheng-imaging.com\signature2\*.*" "F:\kuaipan\kuaipan\Michael\backup\thunderbird\signature2" /e/h/y >nul
+echo "signature back done!"
+
 
 echo "crack dexpot done!"
 
@@ -71,7 +81,7 @@ git commit -a -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
 ::配置文件上传到SVN-Michael
-@ cd f:\Michael\backup >nul
+@ cd F:\kuaipan\kuaipan\Michael\backup >nul
 git add *
 git commit -a -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
