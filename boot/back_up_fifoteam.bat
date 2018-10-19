@@ -30,12 +30,6 @@ git add *
 git commit -a -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
-echo "f:\FifoTeam\js-tools"
-@ cd	f:\FifoTeam\js-tools  >nul
-git add *
-git commit -m "AUTO SAVED BY BAT FILE"
-git push -u origin master
-
 echo "f:\FifoTeam\python-tools"
 @ cd	f:\FifoTeam\python-tools  >nul
 git add *
