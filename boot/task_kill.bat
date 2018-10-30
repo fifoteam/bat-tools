@@ -21,3 +21,7 @@ taskkill /f /im uedit32.exe
 echo "taskkill TOTALCMD"
 taskkill /f /im TOTALCMD.exe
 
+
+echo "taskkill thunderbird"
+taskkill /f /im thunderbird.exe
+
