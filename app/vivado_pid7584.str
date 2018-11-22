@@ -1,0 +1,263 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 7584
+License: Customer
+
+Current time: 	Thu Nov 22 15:07:26 CST 2018
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 7
+OS Version: 6.1
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 138 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/tools/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	D:/tools/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	xht
+User home directory: C:/Users/xht
+User working directory: f:/fifoteam/bat_tools/app
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/tools/Xilinx/Vivado
+HDI_APPROOT: D:/tools/Xilinx/Vivado/2018.1
+RDI_DATADIR: D:/tools/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: D:/tools/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/xht/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/xht/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/xht/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	D:/tools/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	f:/fifoteam/bat_tools/app/vivado.log
+Vivado journal file location: 	f:/fifoteam/bat_tools/app/vivado.jou
+Engine tmp dir: 	f:/fifoteam/bat_tools/app/.Xil/Vivado-7584-xht-PC
+
+GUI allocated memory:	172 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 540 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 40 MB (+39108kb) [00:00:05]
+// [Engine Memory]: 361 MB (+226769kb) [00:00:05]
+// Tcl Message: start_gui 
+// [GUI Memory]: 57 MB (+15629kb) [00:00:11]
+// [Engine Memory]: 540 MB (+169260kb) [00:00:11]
+selectButton(PAResourceEtoH.GettingStartedView_MANAGE_IP, "Manage IP"); // x (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 540 MB. GUI used memory: 36 MB. Current time: 11/22/18 3:07:28 PM CST
+selectMenuItem(PAResourceEtoH.GettingStartedView_START_USING_VIVADO_WITH_IP_CATALOG, "New IP Location..."); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_NEW_IP_LOCATION
+// ab (ch): New IP Location: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, ab)
+setText(PAResourceItoN.NewIPProjectWizard_IP_LOCATION, "f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/fb_resend_ctrl/src/resend_mult/"); // aj (ai, ab)
+// bv (ch):  Create IP Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: create_project managed_ip_project f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/fb_resend_ctrl/src/resend_mult/managed_ip_project -part xc7a100tfgg484-2 -ip 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/fb_resend_ctrl/src/resend_mult/managed_ip_project' 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/tools/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 638 MB (+73940kb) [00:00:25]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 672 MB (+2643kb) [00:00:26]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 863.883 ; gain = 112.832 
+// bv (ch):  Opening IP Catalog : addNotify
+// Tcl Message: set_property target_simulator XSim [current_project] 
+dismissDialog("New IP Location"); // ab (ch)
+selectButton("FINISH", "Finish"); // JButton (j, ab)
+// 't' command handler elapsed time: 13 seconds
+dismissDialog("Opening IP Catalog"); // bv (ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 674 MB. GUI used memory: 42 MB. Current time: 11/22/18 3:07:43 PM CST
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Multi Channel Direct Memory Access ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:axi_mcdma:1.0", 7, "AXI Multi Channel Direct Memory Access", 0, false); // O (O, ch)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "mult"); // OverlayTextField (P, ch)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Multiplier ;  ; Production ; Included ; xilinx.com:ip:mult_gen:12.0", 23, "Multiplier", 0, false); // O (O, ch)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Multiplier ;  ; Production ; Included ; xilinx.com:ip:mult_gen:12.0", 23, "Multiplier", 0, false); // O (O, ch)
+// [GUI Memory]: 60 MB (+736kb) [00:00:38]
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Multiplier ;  ; Production ; Included ; xilinx.com:ip:mult_gen:12.0", 23); // O (O, ch)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Multiplier ;  ; Production ; Included ; xilinx.com:ip:mult_gen:12.0", 23, "Multiplier", 0, false, false, false, false, false, true); // O (O, ch) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// r (ch): Customize IP: addNotify
+// [GUI Memory]: 66 MB (+3271kb) [00:00:41]
+// Elapsed time: 12 seconds
+setText("Component Name", "resend_mult"); // z (O, r)
+selectComboBox("Data Type (PortAType)", "Unsigned", 1); // z (C, r)
+selectComboBox("Data Type: (PortBType)", "Unsigned", 1); // z (C, r)
+selectComboBox("Multiplier Construction (Multiplier_Construction)", "Use Mults", 1); // z (C, r)
+setText("Width", "24"); // z (aY, r)
+setText("Width", "16"); // z (aY, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Output and Control", 1); // aX (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Information", 1); // aX (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, PAResourceEtoH.HACGCBasePanel_IP_SYMBOL, "IP Symbol", 0); // aX (C, r)
+// [GUI Memory]: 70 MB (+215kb) [00:01:21]
+selectCheckBox((HResource) null, "Clock Enable", true); // g (m, r): TRUE
+selectCheckBox((HResource) null, "Synchronous Clear", true); // g (m, r): TRUE
+// Elapsed time: 37 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: CREATE_IP_CORE
+// TclEventType: REPORT_IP_STATUS_STALE
+dismissDialog("Customize IP"); // r (ch)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: create_ip -name mult_gen -vendor xilinx.com -library ip -version 12.0 -module_name resend_mult -dir f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/fb_resend_ctrl/src/resend_mult 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Component_Name {resend_mult} CONFIG.PortAType {Unsigned} CONFIG.PortAWidth {24} CONFIG.PortBType {Unsigned} CONFIG.PortBWidth {16} CONFIG.Multiplier_Construction {Use_Mults} CONFIG.OutputWidthHigh {39} CONFIG.ClockEnable {true} CONFIG.SyncClear {true}] [get_ips resend_mult] 
+// bv (ch):  Customize IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/fb_resend_ctrl/src/resend_mult/resend_mult/resend_mult.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'resend_mult'... 
+// aJ (ch): Generate Output Products: addNotify
+dismissDialog("Customize IP"); // bv (ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 719 MB. GUI used memory: 47 MB. Current time: 11/22/18 3:09:23 PM CST
+// [Engine Memory]: 719 MB (+14268kb) [00:02:09]
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aJ)
+// bv (ch):  Managing Output Products : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/fb_resend_ctrl/src/resend_mult/resend_mult/resend_mult.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'resend_mult'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'resend_mult'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'resend_mult'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all resend_mult] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/fb_resend_ctrl/src/resend_mult/resend_mult/resend_mult.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/fb_resend_ctrl/src/resend_mult/resend_mult/resend_mult.xci] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs -jobs 4 resend_mult_synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 22 15:09:28 2018] Launched resend_mult_synth_1... Run output will be captured here: f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_module/fb_resend_ctrl/src/resend_mult/managed_ip_project/managed_ip_project.runs/resend_mult_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// [GUI Memory]: 74 MB (+590kb) [00:02:32]
+// Elapsed time: 27 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (A, G)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 78 MB (+672kb) [00:03:23]
+// HMemoryUtils.trashcanNow. Engine heap size: 745 MB. GUI used memory: 55 MB. Current time: 11/22/18 3:10:43 PM CST
+// [GUI Memory]: 87 MB (+4749kb) [00:03:36]
+// [Engine Memory]: 768 MB (+13127kb) [00:03:36]
+// Elapsed time: 1586 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, resend_mult]", 1); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, resend_mult, Synthesis]", 3); // B (D, ch)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, resend_mult, Synthesis]", 3); // B (D, ch)
+// PAPropertyPanels.initPanels (resend_mult.dcp) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, resend_mult, resend_mult.dcp]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, resend_mult, resend_mult.dcp]", 6, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+// [GUI Memory]: 92 MB (+728kb) [00:33:02]
+// HMemoryUtils.trashcanNow. Engine heap size: 768 MB. GUI used memory: 55 MB. Current time: 11/22/18 3:40:43 PM CST
+// Elapsed time: 434 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aE (Q, ch)
+// Tcl Command: 'rdi::info_commands {write_edif*}'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "write_edif"); // az (Y, ch)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 123, 108); // dn (ae, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // U (q, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_DOC_AND_TUTORIAL_HELP, "Documentation and Tutorials..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_DESIGN_HUBS, "Design Hubs"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_DESIGN_HUBS, "Design Hubs"); // Z (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_DESIGN_HUBS, "Design Hubs"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_DESIGN_HUBS, "Design Hubs"); // Z (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // U (q, ch)
+selectButton(PAResourceCommand.PACommandNames_UNHIGHLIGHT_ALL, "unhighlight_all"); // B (f, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent Location"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent Location"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+// [GUI Memory]: 99 MB (+2253kb) [00:37:37]
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_LANGUAGE_TEMPLATES, "Language Templates"); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_LANGUAGE_TEMPLATES
+// a (ch): Language Templates: addNotify
+dismissDialog("Language Templates"); // a (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_TCL_STORE, "Xilinx Tcl Store..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_TCL_STORE
+// A (ch): Install Tcl Application Information: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// u (ch): Xilinx Tcl Store: addNotify
+dismissDialog("Install Tcl Application Information"); // A (ch)
+// [GUI Memory]: 118 MB (+14835kb) [00:37:53]
+// [Engine Memory]: 813 MB (+6553kb) [00:37:53]
+// HMemoryUtils.trashcanNow. Engine heap size: 840 MB. GUI used memory: 69 MB. Current time: 11/22/18 3:45:08 PM CST
+// Elapsed time: 10 seconds
+selectList(PAResourceTtoZ.TclStoreDialog_TCL_STORE_NAVIGATOR, "designutils", 2); // k (O, u)
+selectLabel((HResource) null, "Design Utilities"); // b (Q)
+selectList(PAResourceTtoZ.TclStoreDialog_TCL_STORE_NAVIGATOR, "designutils", 2); // k (O, u)
+selectLabel((HResource) null, "Design Utilities"); // b (Q)
+selectList(PAResourceTtoZ.TclStoreDialog_TCL_STORE_NAVIGATOR, "designutils", 2, false, false, false, false, true); // k (O, u) - Double Click
+selectLabel((HResource) null, "Design Utilities", false, false, false, false, true); // b (Q) - Double Click
+selectButton(PAResourceTtoZ.TclStoreDialog_REFRESH, "Refresh"); // a (Q, u)
+// bv (u):  Refresh Catalog : addNotify
+// Tcl Message: tclapp::refresh_catalog 
