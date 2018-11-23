@@ -165,3 +165,21 @@ Everything up-to-date
 To github.com:LogicLover/backup.git
    c87f0ac..16231aa  master -> master
 找不到 f:\fifoteam\bat_tools\app\*.backup
+To two.github.com:fifoteam/bat_tools.git
+   adcbf92..0547d0f  master -> master
+Everything up-to-date
+Everything up-to-date
+Everything up-to-date
+Everything up-to-date
+错误: 没有找到进程 "uedit32.exe"。
+错误: 没有找到进程 "TOTALCMD.exe"。
+找不到 F:\fifoteam\ue-tools\ue\gcc_work\*.o
+找不到 F:\fifoteam\ue-tools\ue\gcc_work\*.exe
+To two.github.com:fifoteam/ue-tools.git
+   93b88a6..ecc316f  master -> master
+Everything up-to-date
+To github.com:LogicLover/backup.git
+   16231aa..77fa701  master -> master
+找不到 f:\fifoteam\bat_tools\app\*.log
+找不到 f:\fifoteam\bat_tools\app\*.jou
+找不到 f:\fifoteam\bat_tools\app\*.backup
