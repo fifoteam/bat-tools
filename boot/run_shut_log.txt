@@ -219,3 +219,23 @@ To github.com:LogicLover/backup.git
 找不到 f:\fifoteam\bat_tools\app\*.log
 找不到 f:\fifoteam\bat_tools\app\*.jou
 找不到 f:\fifoteam\bat_tools\app\*.backup
+To two.github.com:fifoteam/bat_tools.git
+   3a73b88..e9ecc5e  master -> master
+Everything up-to-date
+To two.github.com:fifoteam/python-tools.git
+   38d6536..e0b9192  master -> master
+Everything up-to-date
+Everything up-to-date
+错误: 没有找到进程 "uedit32.exe"。
+错误: 没有找到进程 "TOTALCMD.exe"。
+找不到 F:\fifoteam\ue-tools\ue\gcc_work\*.o
+找不到 F:\fifoteam\ue-tools\ue\gcc_work\*.exe
+To two.github.com:fifoteam/ue-tools.git
+   00e717a..06a9ddb  master -> master
+To two.github.com:fifoteam/sim-tools.git
+   b1847ec..416accf  master -> master
+To github.com:LogicLover/backup.git
+   4bbb0d0..7e2020e  master -> master
+找不到 f:\fifoteam\bat_tools\app\*.log
+找不到 f:\fifoteam\bat_tools\app\*.jou
+找不到 f:\fifoteam\bat_tools\app\*.backup
