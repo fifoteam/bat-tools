@@ -239,3 +239,10 @@ To github.com:LogicLover/backup.git
 找不到 f:\fifoteam\bat_tools\app\*.log
 找不到 f:\fifoteam\bat_tools\app\*.jou
 找不到 f:\fifoteam\bat_tools\app\*.backup
+To two.github.com:fifoteam/bat_tools.git
+   e9ecc5e..2042770  master -> master
+Everything up-to-date
+Everything up-to-date
+Everything up-to-date
+To two.github.com:fifoteam/c-tools.git
+   fc2c1c2..fe91899  master -> master
