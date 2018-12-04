@@ -334,3 +334,9 @@ and the repository exists.
 找不到 f:\fifoteam\bat_tools\app\*.log
 找不到 f:\fifoteam\bat_tools\app\*.jou
 找不到 f:\fifoteam\bat_tools\app\*.backup
+To two.github.com:fifoteam/bat_tools.git
+   d026c28..e76a1e4  master -> master
+Everything up-to-date
+Everything up-to-date
+Everything up-to-date
+Everything up-to-date
