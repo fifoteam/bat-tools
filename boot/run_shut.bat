@@ -4,16 +4,16 @@
 
 
 echo "daily plan"
-call f:\fifoteam\bat_tools\daily_plan\xht_plan_sum.bat
+call f:\fifoteam\bat-tools\daily_plan\xht_plan_sum.bat
 
 echo "task_kill"
-call f:\fifoteam\bat_tools\boot\task_kill.bat
+call f:\fifoteam\bat-tools\boot\task_kill.bat
 
 echo "zme"
-call f:\fifoteam\bat_tools\boot\back_up_zme.bat
+call f:\fifoteam\bat-tools\boot\back_up_zme.bat
 
 echo "fifoteam"
-call f:\fifoteam\bat_tools\boot\back_up_fifoteam.bat
+call f:\fifoteam\bat-tools\boot\back_up_fifoteam.bat
 
 rem echo "nutstore"
 rem @ start	"" "D:\Program Files\Nutstore\Nutstore.exe"

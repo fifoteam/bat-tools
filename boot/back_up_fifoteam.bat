@@ -11,15 +11,15 @@ echo off
 
 ::删除日志文件
 echo "del log file"
-echo "f:\FifoTeam\bat_tools\app"
-@ cd	f:\FifoTeam\bat_tools\app  >nul
+echo "f:\FifoTeam\bat-tools\app"
+@ cd	f:\FifoTeam\bat-tools\app  >nul
 @ del *.log >nul
 @ del *.jou >nul
 @ del *.backup >nul
 
 ::配置文件上传到SVN
-echo "f:\FifoTeam\bat_tools"
-@ cd	f:\FifoTeam\bat_tools  >nul
+echo "f:\FifoTeam\bat-tools"
+@ cd	f:\FifoTeam\bat-tools  >nul
 git add *
 git commit -a -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
