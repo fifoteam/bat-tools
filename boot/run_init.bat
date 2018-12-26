@@ -6,8 +6,8 @@ echo "shadowsocks"
 @ start	"" "D:\Tools\xht_tools\Shadowsocks-2.5.8\Shadowsocks.exe"
 
 
-echo "Microsoft Security Client"
-@ start	"" "c:\Program Files\Microsoft Security Client\msseces.exe" -hide -runkey
+rem echo "Microsoft Security Client"
+rem @ start	"" "c:\Program Files\Microsoft Security Client\msseces.exe" -hide -runkey
 
 echo "autorun.ahk"
 @ start	"" "f:\fifoteam\ahk-tools\autorun\autorun.ahk"
