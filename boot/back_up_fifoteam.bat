@@ -11,39 +11,39 @@ echo off
 
 ::删除日志文件
 echo "del log file"
-echo "f:\FifoTeam\bat-tools\app"
-@ cd	f:\FifoTeam\bat-tools\app  >nul
+echo "f:\kuaipan\kuaipan\FifoTeam\bat-tools\app"
+@ cd	f:\kuaipan\kuaipan\FifoTeam\bat-tools\app  >nul
 @ del *.log >nul
 @ del *.jou >nul
 @ del *.backup >nul
 
 ::配置文件上传到SVN
-echo "f:\FifoTeam\bat-tools"
-@ cd	f:\FifoTeam\bat-tools  >nul
+echo "f:\kuaipan\kuaipan\FifoTeam\bat-tools"
+@ cd	f:\kuaipan\kuaipan\FifoTeam\bat-tools  >nul
 git add *
 git commit -a -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
-echo "f:\FifoTeam\ahk-tools"
-@ cd	f:\FifoTeam\ahk-tools  >nul
+echo "f:\kuaipan\kuaipan\FifoTeam\ahk-tools"
+@ cd	f:\kuaipan\kuaipan\FifoTeam\ahk-tools  >nul
 git add *
 git commit -a -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
-echo "f:\FifoTeam\python-tools"
-@ cd	f:\FifoTeam\python-tools  >nul
+echo "f:\kuaipan\kuaipan\FifoTeam\python-tools"
+@ cd	f:\kuaipan\kuaipan\FifoTeam\python-tools  >nul
 git add *
 git commit -a -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
-echo "f:\FifoTeam\rtl-tools"
-@ cd	f:\FifoTeam\rtl-tools  >nul
+echo "f:\kuaipan\kuaipan\FifoTeam\rtl-tools"
+@ cd	f:\kuaipan\kuaipan\FifoTeam\rtl-tools  >nul
 git add *
 git commit -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
-echo "f:\FifoTeam\c-tools"
-@ cd	f:\FifoTeam\c-tools  >nul
+echo "f:\kuaipan\kuaipan\FifoTeam\c-tools"
+@ cd	f:\kuaipan\kuaipan\FifoTeam\c-tools  >nul
 git add *
 git commit -m "AUTO SAVED BY BAT FILE"
 git push -u origin master

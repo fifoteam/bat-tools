@@ -21,7 +21,7 @@ cd /d %1
 ::)
 ::cd prj
 
-copy "f:\FifoTeam\bat-tools\template_bat\coe_template\template.coe"
+copy "f:\kuaipan\kuaipan\FifoTeam\bat-tools\template_bat\coe_template\template.coe"
 
 ::cd sim
 ::D:\Tools\modeltech64_10.1c\win64\modelsim.exe

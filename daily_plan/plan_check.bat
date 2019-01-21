@@ -2,7 +2,7 @@
 echo off
 
 echo "daily plan"
-call f:\FifoTeam\bat_tools\daily_plan\xht_plan_plan.bat
+call f:\kuaipan\kuaipan\FifoTeam\bat_tools\daily_plan\xht_plan_plan.bat
 @ cd f:\DAHENG\hw_schedule\daily_plan
 echo "1"
 @ svn update f:\DAHENG\hw_schedule\daily_plan\

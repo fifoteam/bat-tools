@@ -11,7 +11,7 @@ rem echo "Microsoft Security Client"
 rem @ start	"" "c:\Program Files\Microsoft Security Client\msseces.exe" -hide -runkey
 
 echo "autorun.ahk"
-@ start	"" "f:\fifoteam\ahk-tools\autorun\autorun.ahk"
+@ start	"" "f:\kuaipan\kuaipan\FifoTeam\ahk-tools\autorun\autorun.ahk"
 ::echo "Ditto"
 ::@ start	"" "D:\Tools\xht_tools\Ditto\Ditto.exe"
 ::echo "dexpot"

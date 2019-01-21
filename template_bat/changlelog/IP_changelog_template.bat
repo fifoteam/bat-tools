@@ -19,7 +19,7 @@ cd /d %1
 ::	type nul>"testbench\tb_.v"
 ::)
 
-copy "f:\FifoTeam\bat-tools\template_bat\changlelog\IP_Changelog.txt"
+copy "f:\kuaipan\kuaipan\FifoTeam\bat-tools\template_bat\changlelog\IP_Changelog.txt"
 
 ::cd sim
 ::D:\Tools\modeltech64_10.1c\win64\modelsim.exe

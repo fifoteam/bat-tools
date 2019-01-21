@@ -9,8 +9,8 @@ echo off
 ::RD /S /Q \?%1  删除任意文件夹
 
 ::保存 ue 配置
-@ xcopy "c:\Users\xht\AppData\Roaming\IDMComp\UltraEdit\*.*" "F:\fifoteam\ue-tools\backup" /e/h/y >nul
-@ xcopy "C:\ue" "F:\fifoteam\ue-tools\ue" /e/h/y >nul
+@ xcopy "c:\Users\xht\AppData\Roaming\IDMComp\UltraEdit\*.*" "f:\kuaipan\kuaipan\FifoTeam\ue-tools\backup" /e/h/y >nul
+@ xcopy "C:\ue" "f:\kuaipan\kuaipan\FifoTeam\ue-tools\ue" /e/h/y >nul
 
 
 echo "UE backup done!"
@@ -30,7 +30,7 @@ echo "tc back done!"
 
 
 ::保存 modelsim 配置
-@ xcopy "d:\Tools\modeltech64_10.5\modelsim.ini" "f:\FifoTeam\sim-tools\modelsim\ini" /y >nul
+@ xcopy "d:\Tools\modeltech64_10.5\modelsim.ini" "f:\kuaipan\kuaipan\FifoTeam\sim-tools\modelsim\ini" /y >nul
 echo "modelsim ini back done!"
 
 ::保存 crack 文件
@@ -57,25 +57,25 @@ echo "signature back done!"
 echo "crack dexpot done!"
 
 ::删除 ue 配置中的重复文件
-@ cd	F:\fifoteam\ue-tools\backup >nul
+@ cd	f:\kuaipan\kuaipan\FifoTeam\ue-tools\backup >nul
 @ del *Saved*.* >nul
 echo "UE Saved* del done!"
 
-@ cd	F:\fifoteam\ue-tools\ue >nul
+@ cd	f:\kuaipan\kuaipan\FifoTeam\ue-tools\ue >nul
 @ rd work /S/Q >nul
-@ cd	F:\fifoteam\ue-tools\ue\gcc_work >nul
+@ cd	f:\kuaipan\kuaipan\FifoTeam\ue-tools\ue\gcc_work >nul
 @ del *.o >nul
 @ del *.exe >nul
 echo "UE work gcc_work del done!"
 
 ::配置文件上传到SVN-fifoteam
-@ cd F:\fifoteam\ue-tools >nul
+@ cd f:\kuaipan\kuaipan\FifoTeam\ue-tools >nul
 git add *
 git commit -a -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
 ::配置文件上传到SVN-fifoteam
-@ cd F:\fifoteam\sim-tools\modelsim >nul
+@ cd f:\kuaipan\kuaipan\FifoTeam\sim-tools\modelsim >nul
 git add *
 git commit -a -m "AUTO SAVED BY BAT FILE"
 git push -u origin master

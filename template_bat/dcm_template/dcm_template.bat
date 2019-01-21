@@ -12,7 +12,7 @@ cd /d %1
 ::	copy "f:\DAHENG\svn\hw_mer\branches\xinghaotao\zme\FPGA\2_xilinx_primitive\chipscope\*" "chipscope\"
 ::)
 
-copy "f:\FifoTeam\bat-tools\template_bat\dcm_template\dcm.v"
+copy "f:\kuaipan\kuaipan\FifoTeam\bat-tools\template_bat\dcm_template\dcm.v"
 
 
 ::pause
