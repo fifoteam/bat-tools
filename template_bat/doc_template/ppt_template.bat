@@ -19,7 +19,7 @@ cd /d %1
 ::	type nul>"testbench\tb_.v"
 ::)
 
-copy "f:\kuaipan\kuaipan\FifoTeam\bat-tools\template_bat\doc_template\ÎÄµµÄ£°å.docx"
+copy "f:\kuaipan\kuaipan\FifoTeam\bat-tools\template_bat\doc_template\PPTÄ£°å.pptx"
 
 ::cd sim
 ::D:\Tools\modeltech64_10.1c\win64\modelsim.exe
