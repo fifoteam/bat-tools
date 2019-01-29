@@ -1,0 +1,347 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 12560
+License: Customer
+
+Current time: 	Tue Jan 29 17:27:42 CST 2019
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 7
+OS Version: 6.1
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 137 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/tools/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	D:/tools/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	xht
+User home directory: C:/Users/xht
+User working directory: f:/kuaipan/kuaipan/fifoteam/bat-tools/app
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/tools/Xilinx/Vivado
+HDI_APPROOT: D:/tools/Xilinx/Vivado/2018.1
+RDI_DATADIR: D:/tools/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: D:/tools/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/xht/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/xht/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/xht/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	D:/tools/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	f:/kuaipan/kuaipan/fifoteam/bat-tools/app/vivado.log
+Vivado journal file location: 	f:/kuaipan/kuaipan/fifoteam/bat-tools/app/vivado.jou
+Engine tmp dir: 	f:/kuaipan/kuaipan/fifoteam/bat-tools/app/.Xil/Vivado-12560-xht-PC
+
+GUI allocated memory:	186 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 561 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 40 MB (+39068kb) [00:00:05]
+// [Engine Memory]: 358 MB (+224381kb) [00:00:05]
+// Tcl Message: start_gui 
+// [GUI Memory]: 87 MB (+47574kb) [00:00:12]
+// [Engine Memory]: 561 MB (+193423kb) [00:00:12]
+// HMemoryUtils.trashcanNow. Engine heap size: 600 MB. GUI used memory: 36 MB. Current time: 1/29/19 5:27:44 PM CST
+// [Engine Memory]: 612 MB (+24119kb) [00:00:17]
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_test/001_full_20190129/prj/mars_platform.xpr");
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_test/001_full_20190129/prj/mars_platform.xpr. Version: Vivado v2018.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_test/001_full_20190129/prj/mars_platform.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_test/001_full_20190129/prj' 
+// HMemoryUtils.trashcanNow. Engine heap size: 632 MB. GUI used memory: 37 MB. Current time: 1/29/19 5:28:09 PM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// [Engine Memory]: 683 MB (+41926kb) [00:00:43]
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 732 MB (+16511kb) [00:00:48]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 823 MB. GUI used memory: 37 MB. Current time: 1/29/19 5:28:24 PM CST
+// [Engine Memory]: 823 MB (+56629kb) [00:00:58]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 895 MB (+32559kb) [00:01:21]
+// Tcl Message: open_project f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_test/001_full_20190129/prj/mars_platform.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_test/001_full_20190129/prj' INFO: [Project 1-313] Project file moved from 'E:/camera/svn/short_dir/ver10/prj' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_test/001_full_20190129/src/user_ip'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/tools/Xilinx/Vivado/2018.1/data/ip'. 
+// Tcl Message: INFO: [Common 17-14] Message 'IP_Flow 19-3664' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:53 ; elapsed = 00:00:45 . Memory (MB): peak = 1070.582 ; gain = 290.320 
+// Project name: mars_platform; location: f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_test/001_full_20190129/prj; part: xc7a100tfgg484-2
+// 'i' command handler elapsed time: 47 seconds
+// Elapsed time: 45 seconds
+dismissDialog("Open Project"); // bv (ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 926 MB. GUI used memory: 47 MB. Current time: 1/29/19 5:28:54 PM CST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bv (ch):  Starting Design Runs : addNotify
+selectButton("PAResourceQtoS.RunImplementation_THERE_NO_NETLIST_AVAILABLE_OK_OK", "OK"); // JButton (A, G)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs impl_1 -jobs 6 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_test/001_full_20190129/src/frame_info/frame_info_add/frame_info_adder47/frame_info_adder47/frame_info_adder47.xci' is already up-to-date 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ten_gig_eth_mac_0'... 
+// [Engine Memory]: 956 MB (+16501kb) [00:01:52]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 50 MB. Current time: 1/29/19 5:29:24 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// [Engine Memory]: 1,024 MB (+21831kb) [00:01:55]
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rx_bram_w64d256'... 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rx_fifo_dram_w74d32'... 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'tx_bram_w32w64'... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'gc_dfifo_w1d128'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'binary_counter'... 
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'packet_divide_adder_fabric'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'resend_mult'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'resend_fifo_narrow'... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'frame_buf_back_fifo_w272d512_pe256_pf446'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'addr_buffer_w36d512_pe64_pf506'... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'frame_buf_front_fifo_w259d512_pe128_pf384'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig_7series'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series'... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_96'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_96'... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'dfifo_w74d16'... 
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'valid_bit_buffer_w8d32'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'gc_bfifo_w72d2k'... 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 92 MB (+664kb) [00:02:38]
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Jan 29 17:30:09 2019] Launched impl_1... Run output will be captured here: f:/DAHENG/hw_mars/branches/xinghaitao/mars_platform/develop_stage/fpga_test/001_full_20190129/prj/mars_platform.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:31 ; elapsed = 00:00:53 . Memory (MB): peak = 1107.523 ; gain = 34.293 
+// 'c' command handler elapsed time: 53 seconds
+// Elapsed time: 52 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 27 seconds
+selectButton(PAResourceItoN.NotificationManager_RUN_SUCCESSFULLY_COMPLETED, "tx_bram_w32w64_synth_1"); // k (Q, ResizableWindow)
+// PAPropertyPanels.initPanels (tx_bram_w32w64_synth_1) elapsed time: 0.5s
+// Run Command: PAResourceCommand.PACommandNames_DESIGN_RUNS_WINDOW
+// [GUI Memory]: 107 MB (+10898kb) [00:03:09]
+// [GUI Memory]: 116 MB (+3888kb) [00:03:12]
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 124 MB (+2173kb) [00:03:13]
+selectButton(PAResourceItoN.NotificationManager_RUN_SUCCESSFULLY_COMPLETED, "gc_dfifo_w1d128_synth_1"); // k (Q, ResizableWindow)
+// Run Command: PAResourceCommand.PACommandNames_DESIGN_RUNS_WINDOW
+// [GUI Memory]: 133 MB (+2837kb) [00:03:14]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 142 MB (+2954kb) [00:03:21]
+// TclEventType: RUN_COMPLETED
+selectButton(PAResourceItoN.NotificationManager_RUN_SUCCESSFULLY_COMPLETED, "packet_divide_adder_fabric_synth_1"); // k (Q, ResizableWindow)
+// Run Command: PAResourceCommand.PACommandNames_DESIGN_RUNS_WINDOW
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 152 MB (+3034kb) [00:03:22]
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 161 MB (+406kb) [00:03:23]
+selectButton(PAResourceItoN.NotificationManager_RUN_SUCCESSFULLY_COMPLETED, "resend_mult_synth_1"); // k (Q, ResizableWindow)
+// PAPropertyPanels.initPanels (resend_mult_synth_1) elapsed time: 0.2s
+// Run Command: PAResourceCommand.PACommandNames_DESIGN_RUNS_WINDOW
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,056 MB. GUI used memory: 62 MB. Current time: 1/29/19 5:30:59 PM CST
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "ten_gig_eth_mac_0_synth_1 ; ten_gig_eth_mac_0 ; synth_design Complete! ; 100 ; Vivado Synthesis Defaults (Vivado Synthesis 2018) ; Vivado Synthesis Default Reports (Vivado Synthesis 2018) ; xc7a100tfgg484-2 ; Vivado Synthesis Defaults", 4, "ten_gig_eth_mac_0_synth_1", 0, false); // ax (O, ch)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "ten_gig_eth_mac_0_synth_1 ; ten_gig_eth_mac_0 ; synth_design Complete! ; 100 ; Vivado Synthesis Defaults (Vivado Synthesis 2018) ; Vivado Synthesis Default Reports (Vivado Synthesis 2018) ; xc7a100tfgg484-2 ; Vivado Synthesis Defaults", 4, "ten_gig_eth_mac_0_synth_1", 0, false, false, false, false, true, false); // ax (O, ch) - Popup Trigger
+// TclEventType: RUN_COMPLETED
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Synthesis Run Properties..."); // ac (ai, ch)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 175 MB (+7094kb) [00:03:49]
+// [GUI Memory]: 184 MB (+206kb) [00:03:49]
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 198 MB (+4656kb) [00:03:52]
+// [GUI Memory]: 217 MB (+9132kb) [00:03:52]
+// [GUI Memory]: 230 MB (+2673kb) [00:03:52]
+// [Engine Memory]: 1,098 MB (+23524kb) [00:03:52]
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,117 MB. GUI used memory: 63 MB. Current time: 1/29/19 5:31:24 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,148 MB. GUI used memory: 63 MB. Current time: 1/29/19 5:32:04 PM CST
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,150 MB. GUI used memory: 69 MB. Current time: 1/29/19 6:02:04 PM CST
