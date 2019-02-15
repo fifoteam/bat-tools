@@ -48,6 +48,30 @@ git add *
 git commit -m "AUTO SAVED BY BAT FILE"
 git push -u origin master
 
+echo "f:\kuaipan\kuaipan\FifoTeam\xilinx-tools"
+@ cd	f:\kuaipan\kuaipan\FifoTeam\xilinx-tools  >nul
+git add *
+git commit -m "AUTO SAVED BY BAT FILE"
+git push -u origin master
+
+echo "f:\kuaipan\kuaipan\FifoTeam\synplify-tools"
+@ cd	f:\kuaipan\kuaipan\FifoTeam\synplify-tools  >nul
+git add *
+git commit -m "AUTO SAVED BY BAT FILE"
+git push -u origin master
+
+echo "f:\kuaipan\kuaipan\FifoTeam\sim-tools"
+@ cd	f:\kuaipan\kuaipan\FifoTeam\sim-tools  >nul
+git add *
+git commit -m "AUTO SAVED BY BAT FILE"
+git push -u origin master
+
+echo "f:\kuaipan\kuaipan\FifoTeam\ue-tools"
+@ cd	f:\kuaipan\kuaipan\FifoTeam\ue-tools  >nul
+git add *
+git commit -m "AUTO SAVED BY BAT FILE"
+git push -u origin master
+
 echo "fifoteam git add & commit done!"
 
 @ping 127.0.0.1 -n 2 >nul
