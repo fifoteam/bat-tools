@@ -1,0 +1,251 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Mar 13 13:26:05 2019
+# Process ID: 3216
+# Current directory: f:/kuaipan/kuaipan/fifoteam/bat-tools/app
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9644
+# Log file: f:/kuaipan/kuaipan/fifoteam/bat-tools/app/vivado.log
+# Journal file: f:/kuaipan/kuaipan/fifoteam/bat-tools/app\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj'
+INFO: [Project 1-313] Project file moved from 'D:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'rxaui_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'ten_gig_eth_mac_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'rx_bram_w64d256_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'rx_fifo_dram_w74d32_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'tx_bram_w32w64_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'gc_dfifo_w1d128_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'binary_counter_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'microblaze_axi_lite_0_2_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'microblaze_axi_lite_0_3_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'microblaze_axi_lite_1_1_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'microblaze_axi_lite_2_1_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'microblaze_axi_lite_3_1_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'packet_divide_adder_fabric_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'frame_buf_back_fifo_w272d512_pe256_pf446_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'addr_buffer_w36d512_pe64_pf506_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'frame_buf_front_fifo_w259d512_pe128_pf384_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'mig_7series_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'dfifo_w74d16_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'valid_bit_buffer_w8d32_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'sync_buffer_fifo_bram_w161d256pe160_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'gc_bfifo_w72d2k_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'resend_fifo_narrow_bram_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'dist_mem_sdpr_w32_d16_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/hw_mars/branches/zhangshaoqiang/fpga/Xgige/mars_platform/9_test_resend/prj/mars_platform.ip_user_files', nor could it be found using path 'D:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/hw_mars/branches/zhangshaoqiang/fpga/Xgige/mars_platform/9_test_resend/prj/mars_platform.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/user_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/tools/Xilinx/Vivado/2018.1/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'resend_mult' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_read_resend/fb_resend_calc_addr/resend_mult/resend_mult/resend_mult.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'resend_mult' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_read_resend/fb_resend_calc_addr/resend_mult/resend_mult/resend_mult.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'resend_mult' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_read_resend/fb_resend_calc_addr/resend_mult/resend_mult/hdl/xbip_utils_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'resend_mult' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_read_resend/fb_resend_calc_addr/resend_mult/resend_mult/hdl/xbip_pipe_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'resend_mult' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_read_resend/fb_resend_calc_addr/resend_mult/resend_mult/hdl/xbip_bram18k_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'resend_mult' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_read_resend/fb_resend_calc_addr/resend_mult/resend_mult/hdl/mult_gen_v12_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'resend_mult' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_read_resend/fb_resend_calc_addr/resend_mult/resend_mult/sim/resend_mult.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'resend_mult' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_read_resend/fb_resend_calc_addr/resend_mult/resend_mult/doc/mult_gen_v12_0_changelog.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'resend_mult' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_read_resend/fb_resend_calc_addr/resend_mult/resend_mult/hdl/xbip_utils_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'resend_mult' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_read_resend/fb_resend_calc_addr/resend_mult/resend_mult/hdl/xbip_pipe_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'resend_mult' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_read_resend/fb_resend_calc_addr/resend_mult/resend_mult/hdl/xbip_bram18k_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'resend_mult' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_read_resend/fb_resend_calc_addr/resend_mult/resend_mult/hdl/mult_gen_v12_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'resend_mult' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_read_resend/fb_resend_calc_addr/resend_mult/resend_mult/resend_mult_ooc.xdc'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'resend_mult' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_read_resend/fb_resend_calc_addr/resend_mult/resend_mult/resend_mult_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'resend_mult' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_read_resend/fb_resend_calc_addr/resend_mult/resend_mult/resend_mult_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'frame_info_adder47' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_info/frame_info_add/frame_info_adder47/frame_info_adder47/frame_info_adder47_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'frame_info_adder47' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_info/frame_info_add/frame_info_adder47/frame_info_adder47/frame_info_adder47_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'frame_info_adder47' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_info/frame_info_add/frame_info_adder47/frame_info_adder47/frame_info_adder47.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'frame_info_adder47' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_info/frame_info_add/frame_info_adder47/frame_info_adder47/frame_info_adder47.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'frame_info_adder47' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_info/frame_info_add/frame_info_adder47/frame_info_adder47/doc/c_addsub_v12_0_changelog.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w8' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w8/tx_bram_w32w8_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w8' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w8/tx_bram_w32w8_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w8' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w8/tx_bram_w32w8_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w8' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w8/tx_bram_w32w8_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w8' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w8/tx_bram_w32w8.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w8' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w8/tx_bram_w32w8.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w8' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w8/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w8' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w8/synth/tx_bram_w32w8.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w8' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w8/simulation/blk_mem_gen_v8_4.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w8' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w8/summary.log'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w8' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w8/misc/blk_mem_gen_v8_4.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w8' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w8/doc/blk_mem_gen_v8_4_changelog.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w32/tx_bram_w32w32_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w32/tx_bram_w32w32_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w32/tx_bram_w32w32_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w32/tx_bram_w32w32_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w32/tx_bram_w32w32.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w32/tx_bram_w32w32.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w32/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w32/synth/tx_bram_w32w32.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w32/simulation/blk_mem_gen_v8_4.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w32/summary.log'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w32/misc/blk_mem_gen_v8_4.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w32/doc/blk_mem_gen_v8_4_changelog.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w16' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w16/tx_bram_w32w16_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w16' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w16/tx_bram_w32w16_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w16' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w16/tx_bram_w32w16_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w16' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w16/tx_bram_w32w16_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w16' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w16/tx_bram_w32w16.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w16' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w16/tx_bram_w32w16.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w16' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w16/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w16' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w16/synth/tx_bram_w32w16.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w16' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w16/simulation/blk_mem_gen_v8_4.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w16' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w16/summary.log'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w16' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w16/misc/blk_mem_gen_v8_4.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w16' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w16/doc/blk_mem_gen_v8_4_changelog.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w128' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w128/tx_bram_w32w128_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w128' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w128/tx_bram_w32w128_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w128' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w128/tx_bram_w32w128_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w128' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w128/tx_bram_w32w128_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w128' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w128/tx_bram_w32w128.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w128' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w128/tx_bram_w32w128.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w128' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w128/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w128' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w128/synth/tx_bram_w32w128.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w128' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w128/simulation/blk_mem_gen_v8_4.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w128' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w128/summary.log'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w128' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w128/misc/blk_mem_gen_v8_4.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'tx_bram_w32w128' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_tx/A7_IP/tx_bram_w32w128/doc/blk_mem_gen_v8_4_changelog.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w38d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w38d32/rx_fifo_dram_w38d32.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w38d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w38d32/rx_fifo_dram_w38d32.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w38d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w38d32/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w38d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w38d32/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w38d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w38d32/synth/rx_fifo_dram_w38d32.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w38d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w38d32/simulation/fifo_generator_vlog_beh.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w38d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w38d32/hdl/fifo_generator_v13_2_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w38d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w38d32/hdl/fifo_generator_v13_2_rfs.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w38d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w38d32/doc/fifo_generator_v13_2_changelog.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w38d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w38d32/rx_fifo_dram_w38d32_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w38d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w38d32/rx_fifo_dram_w38d32_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w38d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w38d32/rx_fifo_dram_w38d32_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w38d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w38d32/rx_fifo_dram_w38d32_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w11d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w11d32/rx_fifo_dram_w11d32.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w11d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w11d32/rx_fifo_dram_w11d32.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w11d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w11d32/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w11d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w11d32/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w11d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w11d32/synth/rx_fifo_dram_w11d32.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w11d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w11d32/simulation/fifo_generator_vlog_beh.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w11d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w11d32/hdl/fifo_generator_v13_2_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w11d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w11d32/hdl/fifo_generator_v13_2_rfs.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w11d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w11d32/doc/fifo_generator_v13_2_changelog.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w11d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w11d32/rx_fifo_dram_w11d32_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w11d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w11d32/rx_fifo_dram_w11d32_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w11d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w11d32/rx_fifo_dram_w11d32_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'rx_fifo_dram_w11d32' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/gige_vision/gvcp_rx/gvcp_rx_buffer/A7_IP/rx_fifo_dram_w11d32/rx_fifo_dram_w11d32_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_divide_adder_dsp' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_packet_divide/adder/packet_divide_adder_dsp/packet_divide_adder_dsp.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_divide_adder_dsp' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_packet_divide/adder/packet_divide_adder_dsp/packet_divide_adder_dsp.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_divide_adder_dsp' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_packet_divide/adder/packet_divide_adder_dsp/hdl/xbip_utils_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_divide_adder_dsp' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_packet_divide/adder/packet_divide_adder_dsp/hdl/c_reg_fd_v12_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_divide_adder_dsp' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_packet_divide/adder/packet_divide_adder_dsp/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'packet_divide_adder_dsp' generated file not found 'f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_packet_divide/adder/packet_divide_adder_dsp/hdl/xbip_pipe_v3_0_vh_rfs.vhd'. Please regenerate to continue.
+INFO: [Common 17-14] Message 'IP_Flow 19-3664' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [IP_Flow 19-2162] IP 'rxaui_0' is locked:
+* IP 'rxaui_0' is configured as a user-managed IP. In this mode it is the user's responsibility to manage all IP files.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+open_project: Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 1025.336 ; gain = 279.391
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 8
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'resend_mult'...
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP resend_mult, cache-ID = e573b0eea42b2b64.
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_buffer/fb_read_plugins/fb_read_resend/fb_resend_calc_addr/resend_mult/resend_mult/resend_mult.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/frame_info/frame_info_add/frame_info_adder47/frame_info_adder47/frame_info_adder47.xci' is already up-to-date
+WARNING: [Project 1-577] IP run rxaui_0_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ten_gig_eth_mac_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rx_bram_w64d256'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rx_fifo_dram_w74d32'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'tx_bram_w32w64'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'gc_dfifo_w1d128'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'binary_counter'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'packet_divide_adder_fabric'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'frame_buf_back_fifo_w272d512_pe256_pf446'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'addr_buffer_w36d512_pe64_pf506'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'frame_buf_front_fifo_w259d512_pe128_pf384'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig_7series'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'dfifo_w74d16'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'valid_bit_buffer_w8d32'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'gc_bfifo_w72d2k'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'resend_fifo_narrow_bram'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'dist_mem_sdpr_w32_d16'...
+WARNING: [Project 1-576] IP 'F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/ten_gig_eth/rxaui/rxaui_0.xci' in run rxaui_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+[Wed Mar 13 14:43:19 2019] Launched rxaui_0_synth_1, ten_gig_eth_mac_0_synth_1, rx_bram_w64d256_synth_1, rx_fifo_dram_w74d32_synth_1, tx_bram_w32w64_synth_1, gc_dfifo_w1d128_synth_1, binary_counter_synth_1, microblaze_axi_lite_0_2_synth_1, microblaze_axi_lite_0_3_synth_1, microblaze_axi_lite_1_1_synth_1, microblaze_axi_lite_2_1_synth_1, microblaze_axi_lite_3_1_synth_1, packet_divide_adder_fabric_synth_1, frame_buf_back_fifo_w272d512_pe256_pf446_synth_1, addr_buffer_w36d512_pe64_pf506_synth_1, frame_buf_front_fifo_w259d512_pe128_pf384_synth_1, mig_7series_synth_1, dfifo_w74d16_synth_1, valid_bit_buffer_w8d32_synth_1, sync_buffer_fifo_bram_w161d256pe160_synth_1, gc_bfifo_w72d2k_synth_1, resend_fifo_narrow_bram_synth_1, dist_mem_sdpr_w32_d16_synth_1, synth_1...
+Run output will be captured here:
+rxaui_0_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/rxaui_0_synth_1/runme.log
+ten_gig_eth_mac_0_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/ten_gig_eth_mac_0_synth_1/runme.log
+rx_bram_w64d256_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/rx_bram_w64d256_synth_1/runme.log
+rx_fifo_dram_w74d32_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/rx_fifo_dram_w74d32_synth_1/runme.log
+tx_bram_w32w64_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/tx_bram_w32w64_synth_1/runme.log
+gc_dfifo_w1d128_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/gc_dfifo_w1d128_synth_1/runme.log
+binary_counter_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/binary_counter_synth_1/runme.log
+microblaze_axi_lite_0_2_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/microblaze_axi_lite_0_2_synth_1/runme.log
+microblaze_axi_lite_0_3_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/microblaze_axi_lite_0_3_synth_1/runme.log
+microblaze_axi_lite_1_1_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/microblaze_axi_lite_1_1_synth_1/runme.log
+microblaze_axi_lite_2_1_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/microblaze_axi_lite_2_1_synth_1/runme.log
+microblaze_axi_lite_3_1_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/microblaze_axi_lite_3_1_synth_1/runme.log
+packet_divide_adder_fabric_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/packet_divide_adder_fabric_synth_1/runme.log
+frame_buf_back_fifo_w272d512_pe256_pf446_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/frame_buf_back_fifo_w272d512_pe256_pf446_synth_1/runme.log
+addr_buffer_w36d512_pe64_pf506_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/addr_buffer_w36d512_pe64_pf506_synth_1/runme.log
+frame_buf_front_fifo_w259d512_pe128_pf384_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/frame_buf_front_fifo_w259d512_pe128_pf384_synth_1/runme.log
+mig_7series_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/mig_7series_synth_1/runme.log
+dfifo_w74d16_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/dfifo_w74d16_synth_1/runme.log
+valid_bit_buffer_w8d32_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/valid_bit_buffer_w8d32_synth_1/runme.log
+sync_buffer_fifo_bram_w161d256pe160_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/sync_buffer_fifo_bram_w161d256pe160_synth_1/runme.log
+gc_bfifo_w72d2k_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/gc_bfifo_w72d2k_synth_1/runme.log
+resend_fifo_narrow_bram_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/resend_fifo_narrow_bram_synth_1/runme.log
+dist_mem_sdpr_w32_d16_synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/dist_mem_sdpr_w32_d16_synth_1/runme.log
+synth_1: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/synth_1/runme.log
+[Wed Mar 13 14:43:25 2019] Launched impl_1...
+Run output will be captured here: F:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/prj/mars_platform.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:36 ; elapsed = 00:00:59 . Memory (MB): peak = 1091.926 ; gain = 44.863
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 2209 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2381.129 ; gain = 22.289
+Restored from archive | CPU: 8.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2381.129 ; gain = 22.289
+Generating merged BMM file for the design top 'mars_platform'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: f:/DAHENG/hw_mars/mars_platform/TD/Development_Phase/003_develop_phase/fpga_platform/ver20/src/microblaze/bd/microblaze/ip/microblaze_microblaze_0_0/data/mb_bootloop_le.elf 
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 626 instances were transformed.
+  IBUFDS_DIFF_OUT => IBUFDS_DIFF_OUT (IBUFDS, IBUFDS): 17 instances
+  IBUFGDS_DIFF_OUT => IBUFDS_DIFF_OUT (IBUFDS, IBUFDS): 1 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 10 instances
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 145 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 32 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 272 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 64 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 44 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 2 instances
+  SRLC16E => SRL16E: 1 instances
+  SRLC32E => SRL16E: 1 instances
+
+open_run: Time (s): cpu = 00:01:19 ; elapsed = 00:01:07 . Memory (MB): peak = 2477.586 ; gain = 1235.484
+open_report: Time (s): cpu = 00:00:25 ; elapsed = 00:00:17 . Memory (MB): peak = 2613.734 ; gain = 106.277
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:37 ; elapsed = 00:00:18 . Memory (MB): peak = 2842.371 ; gain = 200.152
+report_utilization: Time (s): cpu = 00:00:37 ; elapsed = 00:00:18 . Memory (MB): peak = 2842.371 ; gain = 200.152
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 13 18:45:24 2019...
