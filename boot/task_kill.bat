@@ -23,6 +23,6 @@ echo "taskkill TOTALCMD"
 taskkill /im TOTALCMD.exe
 
 
-echo "taskkill thunderbird"
-taskkill /im thunderbird.exe
+rem echo "taskkill thunderbird"
+rem taskkill /im thunderbird.exe
 
