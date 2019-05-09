@@ -6,6 +6,9 @@
 echo "daily plan"
 call f:\kuaipan\kuaipan\FifoTeam\bat-tools\daily_plan\xht_plan_sum.bat
 
+echo "send email"
+call f:\kuaipan\kuaipan\FifoTeam\bat-tools\daily_plan\xht_send_email.bat
+
 echo "task_kill"
 call f:\kuaipan\kuaipan\FifoTeam\bat-tools\boot\task_kill.bat
 
