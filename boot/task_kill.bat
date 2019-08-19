@@ -10,6 +10,16 @@ taskkill /im ALTRun.exe
 echo "taskkill wiz"
 taskkill /im wiz.exe
 
+echo "taskkill wiz"
+taskkill /im wiz.exe
+
+echo "taskkill wiz"
+taskkill /im wiz.exe
+
+echo "taskkill wiz"
+taskkill /im wiz.exe
+
+
 echo "taskkill 263em"
 taskkill /im 263em.exe
 
